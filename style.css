@@ -246,6 +246,7 @@
   border: 2px solid #36395D;
   background-color: #36395D;
   border-radius: 5px;
+  flex-direction: column;
   width: 85%;
   height: 84vh;
   transition: ease-in 0.8s;
@@ -254,8 +255,39 @@
   align-items: center;
   margin: 5vh 0 0 0;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description #skill_project_img {
+* body .container .section_three .section_three_bottom .app1content .app1description .app1_logo #skill_project_img {
   margin: 4vh 0 0 0;
+}
+* body .container .section_three .section_three_bottom .app1content .app1description .app1_description p {
+  color: white;
+  font-family: "Inter", sans-serif;
+  margin: 6vh 0 0 0;
+}
+* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin: 8vh 0 0 0;
+}
+* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio {
+  display: flex;
+  margin: 5vh 0 0 0;
+}
+* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio .tech_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  height: 25vw;
+  background-color: #05607D;
+  border-radius: 50%;
+}
+* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio .tech_1 .app_circle_descriptions {
+  font-family: "Inter", sans-serif;
+  font-size: 3.5vw;
+  font-weight: normal;
+  color: #B7BCD6;
 }
 * body .container .section_three .section_three_bottom .app1content.slide_in {
   left: 0;
