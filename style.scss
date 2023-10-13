@@ -9,6 +9,7 @@ $skillsteal: #146166;
 $iconblock: #023430;
 $languagewhite: #d9e2e2;
 $techcirclegreen: #05607D;
+$techcircleblue: #00567F;
 $hoverfonts: #B7BCD6;
 $experiencegreen: #255C5A;
 $positioncolor: #8081AA;
@@ -322,6 +323,14 @@ $darkgrey: darkgrey;
                     flex-direction: column;
                     align-items: center;
                     margin: 8vh 0 0 0; 
+                    //////////////////////////////
+                    //////////////////////////////
+                    //////////////////////////////
+                    //////////////////////////////
+                    //////////////////////////////
+                    //////////////////////////////
+                    //////////////////////////////
+                    //////////////////////////////
                     // Portfolio App Content
                         // App 1 Content
                         .app1content {
@@ -360,21 +369,72 @@ $darkgrey: darkgrey;
                                     }
                                 }
                                 .app1_technologies {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
                                     color: white;
                                     font-family: 'Inter', sans-serif;
                                     font-weight: bold;
-                                    margin: 8vh 0 0 0;
+                                    margin: 7vh 0 0 0;
+                                    // The tech circles div
                                     .technology_circles_portfolio {
                                         display: flex;
-                                        margin: 5vh 0 0 0;
+                                        gap: 1vh;
+                                        margin: 3vh 0 0 0;
+                                        // The tech icons
+                                        .react_app1 {
+                                            width: 10vw;
+                                            height: 10vw;
+                                        }
+                                        // The actual tech circles
                                         .tech_1 {
                                             display: flex;
                                             flex-direction: column;
                                             justify-content: center;
                                             align-items: center;
-                                            width: 25vw;
-                                            height: 25vw; 
+                                            width: 23vw;
+                                            height: 23vw; 
                                             background-color: $techcirclegreen;
+                                            background-color: $techcircleblue;
+                                            border-radius: 50%;
+                                            .app_circle_descriptions {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3.5vw;
+                                                font-weight: normal;
+                                                color: $socialsgrey;
+                                            }                                      
+                                        }
+                                        .tech_2 {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 23vw;
+                                            height: 23vw;
+                                            background-color: $techcirclegreen;
+                                            background-color: $techcircleblue;
+                                            border-radius: 50%;
+                                            #express_tech_circle {
+                                                width: 8vw;
+                                                height: 8vw;
+                                            }
+                                            .app_circle_descriptions {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3.5vw;
+                                                font-weight: normal;
+                                                color: $socialsgrey;
+                                            }                                      
+                                        }
+                                        .tech_3 {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 23vw;
+                                            height: 23vw; 
+                                            background-color: $techcirclegreen;
+                                            background-color: $techcircleblue;
                                             border-radius: 50%;
                                             .app_circle_descriptions {
                                                 font-family: 'Inter', sans-serif;
@@ -385,6 +445,40 @@ $darkgrey: darkgrey;
                                         }
                                     }
                                 }
+                                // The App accomplishments div
+                                    .app1_accomplishments {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 5vh 0 0 0;
+                                        .accomp_title {
+                                            p {
+                                                font-family: 'Inter', sans-serif;
+                                                color: white;
+                                                font-weight: bold;
+                                            }
+                                        }
+                                        .accomp_list {
+                                            margin: 0 10vw 0 0;
+                                            ul {
+                                                text-align: center;
+                                                #accomp_header {
+                                                    font-weight: bold;
+                                                }
+                                                li {
+                                                    font-family: 'Inter', sans-serif;
+                                                    color: white;
+                                                    list-style: none;
+                                                    padding: 1vh 1vh;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    // The App Links
+                                    .app1_links {
+                                        
+                                    }
                             }
                         }
                         .app1content.slide_in {
@@ -441,6 +535,14 @@ $darkgrey: darkgrey;
                                 text-align: center;
                             }
                         }
+                        //////////////////////////////
+                        //////////////////////////////
+                        //////////////////////////////
+                        //////////////////////////////
+                        //////////////////////////////
+                        //////////////////////////////
+                        //////////////////////////////
+                        //////////////////////////////
                         // All the Portfolio Buttons Div
                     .portfolio_squares {
                         display: flex;
