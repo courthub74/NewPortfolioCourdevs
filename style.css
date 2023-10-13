@@ -364,6 +364,38 @@
   list-style: none;
   padding: 1vh 1vh;
 }
+* body .container .section_three .section_three_bottom .app1content .app1description .app1_links {
+  display: flex;
+  gap: 4vw;
+  margin: 3vh 0 0 0;
+}
+* body .container .section_three .section_three_bottom .app1content .app1description .app1_links .github_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-color: #d9e2e2;
+}
+* body .container .section_three .section_three_bottom .app1content .app1description .app1_links .github_link #github_app_link {
+  width: 11.5vw;
+  height: 11.5vw;
+}
+* body .container .section_three .section_three_bottom .app1content .app1description .app1_links .link_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-color: #d9e2e2;
+}
+* body .container .section_three .section_three_bottom .app1content .app1description .app1_links .link_link #link_app_link {
+  width: 12vw;
+  height: 12vw;
+  margin: -0.3vh 0.3vw 0 0;
+}
 * body .container .section_three .section_three_bottom .app1content.slide_in {
   left: 0;
 }

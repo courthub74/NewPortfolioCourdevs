@@ -477,7 +477,36 @@ $darkgrey: darkgrey;
                                     }
                                     // The App Links
                                     .app1_links {
-                                        
+                                        display: flex;
+                                        gap: 4vw;
+                                        margin: 3vh 0 0 0;
+                                        .github_link {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 15vw;
+                                            height: 15vw;
+                                            border-radius: 50%;
+                                            background-color: $languagewhite;
+                                            #github_app_link {
+                                                width: 11.5vw;
+                                                height: 11.5vw;
+                                            }
+                                        }
+                                        .link_link {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 15vw;
+                                            height: 15vw;
+                                            border-radius: 50%;
+                                            background-color: $languagewhite;
+                                            #link_app_link {
+                                                width: 12vw;
+                                                height: 12vw;
+                                                margin: -.3vh .3vw 0 0;
+                                            }
+                                        }
                                     }
                             }
                         }
