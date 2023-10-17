@@ -60,6 +60,7 @@ $darkgrey: darkgrey;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     body {
+        // overflow: hidden;
         .container {
             background-color: $mainblue;
             margin: 0;
@@ -340,10 +341,12 @@ $darkgrey: darkgrey;
                             z-index: 100;
                             position: fixed;
                             display: flex;
+                            flex-direction: column;
                             justify-content: center;
-                            // align-items: center;
+                            align-items: center;
                             background-color: $mainblue;
                             height: 100vh;
+                            transition: all .4s ease-out;
                             .app1description {
                                 border: 2px solid $portfolios;
                                 background-color: $portfolios;
@@ -355,7 +358,7 @@ $darkgrey: darkgrey;
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
-                                margin: 5vh 0 0 0;
+                                margin: 0vh 0 0 0;
                                 .app1_logo {
                                     #skill_project_img {
                                         margin: 4vh 0 0 0;
@@ -366,6 +369,7 @@ $darkgrey: darkgrey;
                                         color: white;
                                         font-family: 'Inter', sans-serif;
                                         margin: 6vh 0 0 0;
+                                        font-size: 3.5vw;
                                     }
                                 }
                                 .app1_technologies {
@@ -377,6 +381,9 @@ $darkgrey: darkgrey;
                                     font-family: 'Inter', sans-serif;
                                     font-weight: bold;
                                     margin: 7vh 0 0 0;
+                                    p {
+                                        font-size: 3.5vw;
+                                    }
                                     // The tech circles div
                                     .technology_circles_portfolio {
                                         display: flex;
@@ -388,19 +395,20 @@ $darkgrey: darkgrey;
                                             height: 10vw;
                                         }
                                         // The actual tech circles
+                                            // SMALLER CIRCLES
                                         .tech_1 {
                                             display: flex;
                                             flex-direction: column;
                                             justify-content: center;
                                             align-items: center;
-                                            width: 23vw;
-                                            height: 23vw; 
+                                            width: 20vw;
+                                            height: 20vw; 
                                             background-color: $techcirclegreen;
                                             background-color: $techcircleblue;
                                             border-radius: 50%;
                                             .app_circle_descriptions {
                                                 font-family: 'Inter', sans-serif;
-                                                font-size: 3.5vw;
+                                                font-size: 3vw;
                                                 font-weight: normal;
                                                 color: $socialsgrey;
                                             }                                      
@@ -410,20 +418,22 @@ $darkgrey: darkgrey;
                                             flex-direction: column;
                                             justify-content: center;
                                             align-items: center;
-                                            width: 23vw;
-                                            height: 23vw;
+                                            width: 20vw;
+                                            height: 20vw;
                                             background-color: $techcirclegreen;
                                             background-color: $techcircleblue;
                                             border-radius: 50%;
                                             #express_tech_circle {
                                                 width: 8vw;
                                                 height: 8vw;
+                                                margin-top: .5vh;
                                             }
                                             .app_circle_descriptions {
                                                 font-family: 'Inter', sans-serif;
-                                                font-size: 3.5vw;
+                                                font-size: 3vw;
                                                 font-weight: normal;
                                                 color: $socialsgrey;
+                                                margin-top: .5vh;
                                             }                                      
                                         }
                                         .tech_3 {
@@ -431,14 +441,14 @@ $darkgrey: darkgrey;
                                             flex-direction: column;
                                             justify-content: center;
                                             align-items: center;
-                                            width: 23vw;
-                                            height: 23vw; 
+                                            width: 20vw;
+                                            height: 20vw; 
                                             background-color: $techcirclegreen;
                                             background-color: $techcircleblue;
                                             border-radius: 50%;
                                             .app_circle_descriptions {
                                                 font-family: 'Inter', sans-serif;
-                                                font-size: 3.5vw;
+                                                font-size: 3vw;
                                                 font-weight: normal;
                                                 color: $socialsgrey;
                                             }                                      
@@ -452,13 +462,6 @@ $darkgrey: darkgrey;
                                         justify-content: center;
                                         align-items: center;
                                         margin: 5vh 0 0 0;
-                                        .accomp_title {
-                                            p {
-                                                font-family: 'Inter', sans-serif;
-                                                color: white;
-                                                font-weight: bold;
-                                            }
-                                        }
                                         .accomp_list {
                                             margin: 0 10vw 0 0;
                                             ul {
@@ -469,6 +472,7 @@ $darkgrey: darkgrey;
                                                 li {
                                                     font-family: 'Inter', sans-serif;
                                                     color: white;
+                                                    font-size: 3.5vw;
                                                     list-style: none;
                                                     padding: 1vh 1vh;
                                                 }
@@ -479,39 +483,52 @@ $darkgrey: darkgrey;
                                     .app1_links {
                                         display: flex;
                                         gap: 4vw;
-                                        margin: 3vh 0 0 0;
+                                        margin: 6vh 0 0 0;
                                         .github_link {
                                             display: flex;
                                             justify-content: center;
                                             align-items: center;
-                                            width: 15vw;
-                                            height: 15vw;
+                                            width: 14vw;
+                                            height: 14vw;
                                             border-radius: 50%;
                                             background-color: $languagewhite;
                                             #github_app_link {
-                                                width: 11.5vw;
-                                                height: 11.5vw;
+                                                width: 10vw;
+                                                height: 10vw;
+                                                margin: 0 0 0 .05vw;
                                             }
                                         }
                                         .link_link {
                                             display: flex;
                                             justify-content: center;
                                             align-items: center;
-                                            width: 15vw;
-                                            height: 15vw;
+                                            width: 14vw;
+                                            height: 14vw;
                                             border-radius: 50%;
                                             background-color: $languagewhite;
                                             #link_app_link {
-                                                width: 12vw;
-                                                height: 12vw;
-                                                margin: -.3vh .3vw 0 0;
+                                                width: 10vw;
+                                                height: 10vw;
+                                                margin: -.3vh .5vw 0 0;
                                             }
                                         }
                                     }
                             }
                         }
                         .app1content.slide_in {
+                            // add transition HERE
+                            transition: all .6s ease-in;
                             left: 0;
+                        }
+                        // app back arrow
+                        .app1_back_arrow {
+                            background: none;
+                            border: none;
+                            margin: 3vh 0 0 0;
+                            #back_arrow {
+                                width: 7vw;
+                                height: 7vw;
+                            }
                         }
                         .app2content {
                             border: 2px solid $portfolios;
@@ -829,24 +846,24 @@ $darkgrey: darkgrey;
                                 opacity: 1;
                             }
                             #nodejs {
+                                transition: .7s all ease-in;
                                 width: 13vw;
                                 height: 14vw;
                                 margin: 0 0 .4vh 0;
                                 position: absolute;
                             }
                             #nodejs.dissapear {
-                                transition: .7s all ease-in;
+                                transition: .3s all ease-in;
                                 opacity: 0;
                             }
                             #nodejs_description {
-                                transition: .3s all ease-out;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
                                 opacity: 0;
                             }
                             #nodejs_description.show {
-                                transition: .7s all ease-in;
+                                transition: .8s all ease-out;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 4vw;
+                                color: white;
                                 opacity: 1;
                             }
                             #django {
@@ -1204,16 +1221,19 @@ $darkgrey: darkgrey;
                     ////////////////////////
                     // Blog 1 Background
                     .blog1content {
+                        transition: all .5s ease-in;
                         position: fixed;
                         top: 0;
                         left: 100%;
                         background-color: $skillsteal;
                         height: 100vh;
                         width: 100%;
-                        margin: -14vh 0 0 0;
+                        margin: 0vh 0 0 0;
                         display: flex;
+                        flex-direction: column;
                         justify-content: center;
                         align-items: center;
+                        z-index: 100;
                         .blog1outline {
                             border: 3px solid $mainblue;
                             height: 75vh;
@@ -1310,6 +1330,18 @@ $darkgrey: darkgrey;
                                     }
                                 }
                             }
+                        }
+                    }
+                    .blog1content.slide_in {
+                        left: 0;
+                    }
+                    .blog_back_arrow {
+                        background: none;
+                        border: none;
+                        margin: 0 0 0 35vw;
+                        #blog_back_arrow {
+                            width: 11vw;
+                            height: 11vw;
                         }
                     }
                     ////////////////////////
@@ -1476,5 +1508,8 @@ $darkgrey: darkgrey;
                 }
             }
         }
+    }
+    body.no_scroll {
+        overflow: hidden;
     }
 }

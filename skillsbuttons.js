@@ -174,7 +174,7 @@ javascript_skill.addEventListener('click', function () {
         javascript_logo.classList.remove('dissapear');
         javascript_description.classList.remove('show');
     }
-    c
+    // call the function with a setTimeout for 3 seconds
     setTimeout(javascript_back_on, 3000);
 });
 
@@ -200,8 +200,29 @@ python_skill.addEventListener('click', function () {
     // setTimer for call of function
     setTimeout(python_back_on, 3000);
 });
-// NodeJS
-let nodejs_skill = document.getElementById('nodejs');
+// NODE JS
+
+// NODE JS BUTTON
+let nodejs_skill = document.getElementById('nodejs_skill');
+// NODE JS LOGO
+let nodejs_logo = document.getElementById('nodejs');
+// NODE DESCRIPTION
+let nodejs_description = document.getElementById('nodejs_description');
+// NODE JS EVENT LISTENER
+nodejs_skill.addEventListener('click', function() {
+    console.log("NODE JS Button");
+    // Make logo dissapear
+    nodejs_logo.classList.add('dissapear');
+    // Make text appear
+    nodejs_description.classList.add('show');
+    // function to reset the button
+    function nodejs_back_on() {
+        nodejs_logo.classList.remove('dissapear');
+        nodejs_description.classList.remove('show');
+    }
+    // setTimer for call of function
+    setTimeout(nodejs_back_on, 3000);
+});
 // Django
 let django_skill = document.getElementById('django');
 // AWS

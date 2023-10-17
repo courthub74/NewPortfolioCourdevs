@@ -8,7 +8,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="whole_body">
 
     <div class="container" id="whole_page">
         <!-- The Navbars -->
@@ -122,7 +122,7 @@
                     <!-- /////////////////////////////////////// -->
                     <!-- /////////////////////////////////////// -->
                      <!-- App 1 Description -->
-                     <div class="app1content slide_in">
+                     <div class="app1content">
                         <div class="app1description">
                             <!-- The App Logo -->
                             <header class="app1_logo">
@@ -175,6 +175,10 @@
                                 </a>
                             </div>
                         </div>
+                        <!-- Back Arrow -->
+                        <button class="app1_back_arrow">
+                            <img src="/img/arrows/grey_back_arrow.png" id="back_arrow" alt="back_arrow">
+                        </button>
                     </div>
                     <!-- /////////////////////////////////////// -->
                     <!-- /////////////////////////////////////// -->
@@ -388,9 +392,9 @@
                             <div class="skill_back"></div>
                             <!-- Front SASS -->
                                  <!-- Blue -->
-                            <button class="skill_front">
+                            <button class="skill_front" id="nodejs_skill">
                                 <img src="./img/skills/backend/whiteicons/nodejs.png" id="nodejs" alt="nodejs">
-                                <div class="description">Node JS</div>
+                                <div id="nodejs_description">Node JS</div>
                             </button>
                         </div>
                     </div>
@@ -617,6 +621,10 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- Blog Back Arrow -->
+                        <button class="blog_back_arrow">
+                            <img src="/img/arrows/mainblue_back_arrow.png" id="blog_back_arrow" alt="blog_back_arrow">
+                        </button>
                     </div>
                 </div>
                  <!-- /////////////////////////////////////// -->
@@ -714,9 +722,13 @@
 
     <!-- NavBar -->
     <script src="navbar.js"></script>
+    <!-- Portfolio buttons -->
+    <script src="portfolio.js"></script>
     <!-- Skills Buttons -->
     <script src="skillsbuttons.js"></script>
     <!-- Experience Buttons -->
     <script src="experiencebuttons.js"></script>
+    <!-- Blog Buttons -->
+    <script src="blogbutttons.js"></script>
 </body>
 </html>
