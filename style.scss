@@ -71,7 +71,7 @@ $darkgrey: darkgrey;
                 top: 0;
                 width: 100%;
                 z-index: 98;
-                height: 14vh;
+                height: 12vh;
                 transition: 1s all ease-in-out;
                 .nav_top_contents {
                     display: flex;
@@ -205,7 +205,7 @@ $darkgrey: darkgrey;
                             font-family: 'Inter', sans-serif;
                             color: white;
                             // color: $positioncolor;
-                            font-size: 8.5vw;
+                            font-size: 7vw;
                         }
                     }
                     .job_description {
@@ -220,7 +220,7 @@ $darkgrey: darkgrey;
                             font-family: 'Roboto', sans-serif;
                             color: $positioncolor;
                             // color: white;
-                            font-size: 20px;
+                            font-size: 5vw;
                         }
                     }
                     .my_mantra {
@@ -230,7 +230,7 @@ $darkgrey: darkgrey;
                             color: white;
                             // color: $positioncolor;
                             font-family: 'Roboto', sans-serif;
-                            font-size: 4.5vw;
+                            font-size: 3.5vw;
                             font-weight: bold;
                             text-align: center;
                         }
@@ -250,7 +250,7 @@ $darkgrey: darkgrey;
                             // color: $darkblue;
                             text-decoration: none;
                             font-family: 'Roboto', sans-serif;
-                            font-size: 4vw;
+                            font-size: 3.5vw;
                         }
                     }
                 }
@@ -279,6 +279,7 @@ $darkgrey: darkgrey;
                         // text-align: center;
                         color: white;
                         font-family: 'Roboto', sans-serif;
+                        font-size: 3.5vw;
                         .about_page_Logo {
                             display: flex;
                             justify-content: center;
@@ -671,8 +672,8 @@ $darkgrey: darkgrey;
                             // box-shadow: 1px 1px 3px $boxshadowcircles;
                             // html / css icons sizing
                             .shield {
-                                width: 12vw;
-                                height: 12vw;
+                                width: 10vw;
+                                height: 10vw;
                                 margin: 1vh 0 1vh 0;
                             }
                             // html
@@ -1425,7 +1426,7 @@ $darkgrey: darkgrey;
                             flex-direction: column;
                             label {
                                 font-family: 'Inter', sans-serif;
-                                font-size: 1.5em;
+                                font-size: 5vw;
                                 color: white;
                             }
                             input {
