@@ -100,15 +100,19 @@ $darkgrey: darkgrey;
                         transition: 1s all ease-in-out;
                         #name {
                             color: white;
-                            font-size: 4vw;
+                            font-size: 5vw;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;
                             margin: 0 0 0 0vw;
                         }
-                        #job_description {
-                            color: $positioncolor;
-                            font-size: 3.5vw;
-                            font-family: 'Roboto', sans-serif;
+                        .desc_menu_box {
+                            background-color: $portfolios;
+                            // width height below
+                            #job_description {
+                                color: $positioncolor;
+                                font-size: 3vw;
+                                font-family: 'Roboto', sans-serif;
+                            }
                         }
                     }
                     .you.appear {

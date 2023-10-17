@@ -43,14 +43,17 @@
 }
 * body .container .the_top_nav .nav_top_contents .you #name {
   color: white;
-  font-size: 4vw;
+  font-size: 5vw;
   font-family: "Inter", sans-serif;
   font-weight: bold;
   margin: 0 0 0 0vw;
 }
-* body .container .the_top_nav .nav_top_contents .you #job_description {
+* body .container .the_top_nav .nav_top_contents .you .desc_menu_box {
+  background-color: #36395D;
+}
+* body .container .the_top_nav .nav_top_contents .you .desc_menu_box #job_description {
   color: #8081AA;
-  font-size: 3.5vw;
+  font-size: 3vw;
   font-family: "Roboto", sans-serif;
 }
 * body .container .the_top_nav .nav_top_contents .you.appear {
