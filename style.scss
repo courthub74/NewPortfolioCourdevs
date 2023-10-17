@@ -77,27 +77,25 @@ $darkgrey: darkgrey;
                     display: flex;
                     justify-content: space-between;
                     #courdevs_top_logo {
-                        width: 25vw;
-                        height: 25vw;
-                        margin: 2vh 0 0 5vw;
+                        // width: 25vw;
+                        // height: 25vw;
+                        width: 20vw;
+                        height: 20vw;
+                        margin: 2vh 0 0 8vw;
                         transition: 1s all ease-in-out;
-                        // opacity: 0;
+                        opacity: 0;
                     }
                     #courdevs_top_logo.dissapear {
                         opacity: 0;
                         transition: 1s all ease-in-out;
                     }
-                    // #courdevs_top_logo.appear {
-                    //     opacity: 1;
-                    //     transition: .7s all ease-in;
-                    // }
                     .you {
                         display: flex;
                         flex-direction: column;
                         justify-content: left;
                         align-items: center;
                         // margin: 4.5vh 0 0 -60vw;
-                        margin: 5.5vh 0 0 -4vw;
+                        margin: 4.5vh 0 0 -45vw;
                         opacity: 0;
                         transition: 1s all ease-in-out;
                         #name {
@@ -118,8 +116,8 @@ $darkgrey: darkgrey;
                         transition: 1s all ease-in-out;
                     }
                     #top_hamburger {
-                        width: 12vw;
-                        height: 12vw;
+                        width: 10vw;
+                        height: 10vw;
                         margin: 4.5vh 8vw 0 0;
                         transition: 1s all ease-in-out;
                     }

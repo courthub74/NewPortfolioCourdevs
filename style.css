@@ -22,10 +22,11 @@
   justify-content: space-between;
 }
 * body .container .the_top_nav .nav_top_contents #courdevs_top_logo {
-  width: 25vw;
-  height: 25vw;
-  margin: 2vh 0 0 5vw;
+  width: 20vw;
+  height: 20vw;
+  margin: 2vh 0 0 8vw;
   transition: 1s all ease-in-out;
+  opacity: 0;
 }
 * body .container .the_top_nav .nav_top_contents #courdevs_top_logo.dissapear {
   opacity: 0;
@@ -36,7 +37,7 @@
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  margin: 5.5vh 0 0 -4vw;
+  margin: 4.5vh 0 0 -45vw;
   opacity: 0;
   transition: 1s all ease-in-out;
 }
@@ -57,8 +58,8 @@
   transition: 1s all ease-in-out;
 }
 * body .container .the_top_nav .nav_top_contents #top_hamburger {
-  width: 12vw;
-  height: 12vw;
+  width: 10vw;
+  height: 10vw;
   margin: 4.5vh 8vw 0 0;
   transition: 1s all ease-in-out;
 }
