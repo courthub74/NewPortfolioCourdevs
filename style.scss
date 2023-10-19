@@ -94,8 +94,9 @@ $darkgrey: darkgrey;
                         flex-direction: column;
                         justify-content: left;
                         align-items: center;
+                        gap: .5vh;
                         // margin: 4.5vh 0 0 -60vw;
-                        margin: 4.5vh 0 0 -45vw;
+                        margin: 2.2vh 0 0 -45vw;
                         opacity: 0;
                         transition: 1s all ease-in-out;
                         #name {
@@ -107,10 +108,14 @@ $darkgrey: darkgrey;
                         }
                         .desc_menu_box {
                             background-color: $portfolios;
+                            padding: 2vw;
+                            border-radius: 5px;
                             // width height below
+                            // width: 10vw;
+                            // height: 1vw;
                             #job_description {
                                 color: $positioncolor;
-                                font-size: 3vw;
+                                font-size: 3.3vw;
                                 font-family: 'Roboto', sans-serif;
                             }
                         }
@@ -122,7 +127,7 @@ $darkgrey: darkgrey;
                     #top_hamburger {
                         width: 10vw;
                         height: 10vw;
-                        margin: 4.5vh 8vw 0 0;
+                        margin: 3.6vh 8vw 0 0;
                         transition: 1s all ease-in-out;
                     }
                     #top_hamburger.dissapear {
@@ -234,8 +239,8 @@ $darkgrey: darkgrey;
                             color: white;
                             // color: $positioncolor;
                             font-family: 'Roboto', sans-serif;
-                            font-size: 3.5vw;
-                            font-weight: bold;
+                            font-size: 4vw;
+                            // font-weight: bold;
                             text-align: center;
                         }
                     }
@@ -848,21 +853,21 @@ $darkgrey: darkgrey;
                                 color: white;
                                 opacity: 1;
                             }
-                            #nodejs {
+                            #expressjs {
                                 transition: .7s all ease-in;
-                                width: 13vw;
-                                height: 14vw;
+                                width: 11vw;
+                                height: 11vw;
                                 margin: 0 0 .4vh 0;
                                 position: absolute;
                             }
-                            #nodejs.dissapear {
+                            #expressjs.dissapear {
                                 transition: .3s all ease-in;
                                 opacity: 0;
                             }
-                            #nodejs_description {
+                            #expressjs_description {
                                 opacity: 0;
                             }
-                            #nodejs_description.show {
+                            #expressjs_description.show {
                                 transition: .8s all ease-out;
                                 font-family: 'Roboto', sans-serif;
                                 font-size: 4vw;

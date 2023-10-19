@@ -37,7 +37,8 @@
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  margin: 4.5vh 0 0 -45vw;
+  gap: 0.5vh;
+  margin: 2.2vh 0 0 -45vw;
   opacity: 0;
   transition: 1s all ease-in-out;
 }
@@ -50,10 +51,12 @@
 }
 * body .container .the_top_nav .nav_top_contents .you .desc_menu_box {
   background-color: #36395D;
+  padding: 2vw;
+  border-radius: 5px;
 }
 * body .container .the_top_nav .nav_top_contents .you .desc_menu_box #job_description {
   color: #8081AA;
-  font-size: 3vw;
+  font-size: 3.3vw;
   font-family: "Roboto", sans-serif;
 }
 * body .container .the_top_nav .nav_top_contents .you.appear {
@@ -63,7 +66,7 @@
 * body .container .the_top_nav .nav_top_contents #top_hamburger {
   width: 10vw;
   height: 10vw;
-  margin: 4.5vh 8vw 0 0;
+  margin: 3.6vh 8vw 0 0;
   transition: 1s all ease-in-out;
 }
 * body .container .the_top_nav .nav_top_contents #top_hamburger.dissapear {
@@ -154,8 +157,7 @@
 * body .container .section_one .section_one_content .my_mantra p {
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 3.5vw;
-  font-weight: bold;
+  font-size: 4vw;
   text-align: center;
 }
 * body .container .section_one .section_one_content .learn_more {
@@ -712,21 +714,21 @@
   color: white;
   opacity: 1;
 }
-* body .container .section_four .section_four_bottom .skill_circle .skill_front #nodejs {
+* body .container .section_four .section_four_bottom .skill_circle .skill_front #expressjs {
   transition: 0.7s all ease-in;
-  width: 13vw;
-  height: 14vw;
+  width: 11vw;
+  height: 11vw;
   margin: 0 0 0.4vh 0;
   position: absolute;
 }
-* body .container .section_four .section_four_bottom .skill_circle .skill_front #nodejs.dissapear {
+* body .container .section_four .section_four_bottom .skill_circle .skill_front #expressjs.dissapear {
   transition: 0.3s all ease-in;
   opacity: 0;
 }
-* body .container .section_four .section_four_bottom .skill_circle .skill_front #nodejs_description {
+* body .container .section_four .section_four_bottom .skill_circle .skill_front #expressjs_description {
   opacity: 0;
 }
-* body .container .section_four .section_four_bottom .skill_circle .skill_front #nodejs_description.show {
+* body .container .section_four .section_four_bottom .skill_circle .skill_front #expressjs_description.show {
   transition: 0.8s all ease-out;
   font-family: "Roboto", sans-serif;
   font-size: 4vw;

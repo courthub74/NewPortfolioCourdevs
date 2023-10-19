@@ -203,25 +203,25 @@ python_skill.addEventListener('click', function () {
 // NODE JS
 
 // NODE JS BUTTON
-let nodejs_skill = document.getElementById('nodejs_skill');
+let expressjs_skill = document.getElementById('expressjs_skill');
 // NODE JS LOGO
-let nodejs_logo = document.getElementById('nodejs');
+let expressjs_logo = document.getElementById('expressjs');
 // NODE DESCRIPTION
-let nodejs_description = document.getElementById('nodejs_description');
+let expressjs_description = document.getElementById('expressjs_description');
 // NODE JS EVENT LISTENER
-nodejs_skill.addEventListener('click', function() {
+expressjs_skill.addEventListener('click', function() {
     console.log("NODE JS Button");
     // Make logo dissapear
-    nodejs_logo.classList.add('dissapear');
+    expressjs_logo.classList.add('dissapear');
     // Make text appear
-    nodejs_description.classList.add('show');
+    expressjs_description.classList.add('show');
     // function to reset the button
-    function nodejs_back_on() {
-        nodejs_logo.classList.remove('dissapear');
-        nodejs_description.classList.remove('show');
+    function expressjs_back_on() {
+        expressjs_logo.classList.remove('dissapear');
+        expressjs_description.classList.remove('show');
     }
     // setTimer for call of function
-    setTimeout(nodejs_back_on, 3000);
+    setTimeout(expressjs_back_on, 3000);
 });
 // Django
 let django_skill = document.getElementById('django');
