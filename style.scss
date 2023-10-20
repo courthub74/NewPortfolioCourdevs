@@ -71,7 +71,7 @@ $darkgrey: darkgrey;
                 top: 0;
                 width: 100%;
                 z-index: 98;
-                height: 12vh;
+                height: 17vh;
                 transition: 1s all ease-in-out;
                 .nav_top_contents {
                     display: flex;
@@ -79,10 +79,10 @@ $darkgrey: darkgrey;
                     #courdevs_top_logo {
                         // width: 25vw;
                         // height: 25vw;
-                        width: 27w;
-                        height: 27vw;
-                        margin: 3vh 0 0 8vw;
-                        transition: 1s all ease-in-out;
+                        width: 28w;
+                        height: 28vw;
+                        margin: 3vh 0 0 9vw;
+                        transition: 3s all ease-in-out;
                         // opacity: 0;
                     }
                     #courdevs_top_logo.dissapear {
@@ -96,7 +96,7 @@ $darkgrey: darkgrey;
                         align-items: center;
                         gap: .5vh;
                         // margin: 4.5vh 0 0 -60vw;
-                        margin: 2.2vh 0 0 -45vw;
+                        margin: 5vh 0 0 -55vw;
                         opacity: 0;
                         transition: 1s all ease-in-out;
                         #name {
