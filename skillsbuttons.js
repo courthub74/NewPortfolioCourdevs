@@ -223,8 +223,30 @@ expressjs_skill.addEventListener('click', function() {
     // setTimer for call of function
     setTimeout(expressjs_back_on, 3000);
 });
-// Django
-let django_skill = document.getElementById('django');
+
+// DJANGO
+
+// DJANGO BUTTON
+let django_skill = document.getElementById('django_skill');
+// DJANGO LOGO
+let django_logo = document.getElementById('django');
+// DJANGO DESCRIPTION
+let django_description = document.getElementById('django_description');
+// DJANGO EVENT LISTENER
+django_skill.addEventListener('click', () => {
+    console.log("DJANGO Button");
+    // Make logo dissapear
+    django_logo.classList.add('dissapear');
+    // Make text appear
+    django_description.classList.add('show');
+    // function to reset the button
+    function django_back_on() {
+        django_logo.classList.remove('dissapear');
+        django_description.classList.remove('show');
+    }
+    // setTimer for call of function
+    setTimeout(django_back_on, 3000);
+});
 // AWS
 let aws_skill = document.getElementById('aws');
 // Heroku

@@ -875,24 +875,25 @@ $darkgrey: darkgrey;
                                 opacity: 1;
                             }
                             #django {
-                                width: 13vw;
-                                height: 11vw;
+                                transition: .7s all ease-in;
+                                width: 11vw;
+                                height: 9vw;
                                 margin: 0 1vw 0 0;
                                 position: absolute;
                             }
                             #django.dissapear {
-                                transition: .7s all ease-in;
+                                transition: .3s all ease-in;
                                 opacity: 0;
                             }
                             #django_description {
-                                transition: .3s all ease-out;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
                                 opacity: 0;
                             }
                             #django_description.show {
-                                transition: .7s all ease-in;
+                                transition: .8s all ease-out;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 4vw;
+                                margin-top: -.3vh;
+                                color: white;
                                 opacity: 1;
                             }
                             #aws {
