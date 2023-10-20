@@ -79,9 +79,9 @@ $darkgrey: darkgrey;
                     #courdevs_top_logo {
                         // width: 25vw;
                         // height: 25vw;
-                        width: 20vw;
-                        height: 20vw;
-                        margin: 2vh 0 0 8vw;
+                        width: 27w;
+                        height: 27vw;
+                        margin: 3vh 0 0 8vw;
                         transition: 1s all ease-in-out;
                         // opacity: 0;
                     }
@@ -127,7 +127,7 @@ $darkgrey: darkgrey;
                     #top_hamburger {
                         width: 10vw;
                         height: 10vw;
-                        margin: 3.6vh 8vw 0 0;
+                        margin: 6.5vh 15vw 0 0;
                         transition: 1s all ease-in-out;
                     }
                     #top_hamburger.dissapear {
@@ -185,7 +185,7 @@ $darkgrey: darkgrey;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    margin: -30vh 0 0 0;
+                    margin: -20vh 0 0 0;
                     #home_headshot {
                         width: 45vw;
                         height: 45vw;
@@ -247,7 +247,7 @@ $darkgrey: darkgrey;
                     .learn_more {
                         width: 70vw;
                         height: 10vw;
-                        margin: 13vh 0 -15vh 0;
+                        margin: 12vh 0 -15vh 0;
                         border-radius: 5px;
                         background-color: $portfolios;
                         // background-color: $positioncolor;

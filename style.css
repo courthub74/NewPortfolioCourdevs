@@ -22,9 +22,9 @@
   justify-content: space-between;
 }
 * body .container .the_top_nav .nav_top_contents #courdevs_top_logo {
-  width: 20vw;
-  height: 20vw;
-  margin: 2vh 0 0 8vw;
+  width: 27w;
+  height: 27vw;
+  margin: 3vh 0 0 8vw;
   transition: 1s all ease-in-out;
 }
 * body .container .the_top_nav .nav_top_contents #courdevs_top_logo.dissapear {
@@ -65,7 +65,7 @@
 * body .container .the_top_nav .nav_top_contents #top_hamburger {
   width: 10vw;
   height: 10vw;
-  margin: 3.6vh 8vw 0 0;
+  margin: 6.5vh 15vw 0 0;
   transition: 1s all ease-in-out;
 }
 * body .container .the_top_nav .nav_top_contents #top_hamburger.dissapear {
@@ -104,7 +104,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: -30vh 0 0 0;
+  margin: -20vh 0 0 0;
 }
 * body .container .section_one .section_one_headshot #home_headshot {
   width: 45vw;
@@ -162,7 +162,7 @@
 * body .container .section_one .section_one_content .learn_more {
   width: 70vw;
   height: 10vw;
-  margin: 13vh 0 -15vh 0;
+  margin: 12vh 0 -15vh 0;
   border-radius: 5px;
   background-color: #36395D;
   border: none;
