@@ -254,6 +254,23 @@ django_skill.addEventListener('click', () => {
 let aws_skill = document.getElementById('aws_skill');
 // AWS LOGO
 let aws_logo = document.getElementById('aws');
+// AWS TEXT
+let aws_description = document.getElementById('aws_description');
+// AWS EVENT LISTENER
+aws_skill.addEventListener('click', () => {
+    console.log("AWS Button");
+    // Make logo dissapear
+    aws_logo.classList.add('dissapear');
+    // Make text appear
+    aws_description.classList.add('show');
+    // function to reset the button
+    function aws_back_on() {
+        aws_logo.classList.remove('dissapear');
+        aws_description.classList.remove('show');
+    }
+    // setTimer for call of function
+    setTimeout(aws_back_on, 3000);
+})
 // Heroku
 let heroku_skill = document.getElementById('heroku');
 

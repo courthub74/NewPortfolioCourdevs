@@ -757,24 +757,24 @@
   opacity: 1;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #aws {
-  width: 15vw;
-  height: 15vw;
+  transition: 0.7s all ease-in;
+  width: 13vw;
+  height: 13vw;
   margin: 0.5vh 0 0.4vh 0;
   position: absolute;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #aws.dissapear {
-  transition: 0.7s all ease-in;
+  transition: 0.3s all ease-in;
   opacity: 0;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #aws_description {
-  transition: 0.3s all ease-out;
-  font-family: "Roboto", sans-serif;
-  font-size: 4vw;
-  color: white;
   opacity: 0;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #aws_description.show {
-  transition: 0.7s all ease-in;
+  transition: 0.8s all ease-out;
+  font-family: "Roboto", sans-serif;
+  font-size: 4vw;
+  color: white;
   opacity: 1;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #heroku {
