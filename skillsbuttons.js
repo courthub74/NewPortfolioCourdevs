@@ -247,8 +247,13 @@ django_skill.addEventListener('click', () => {
     // setTimer for call of function
     setTimeout(django_back_on, 3000);
 });
+
 // AWS
-let aws_skill = document.getElementById('aws');
+
+// AWS BUTTON
+let aws_skill = document.getElementById('aws_skill');
+// AWS LOGO
+let aws_logo = document.getElementById('aws');
 // Heroku
 let heroku_skill = document.getElementById('heroku');
 

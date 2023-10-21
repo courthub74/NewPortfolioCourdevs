@@ -14,6 +14,9 @@ $hoverfonts: #B7BCD6;
 $experiencegreen: #255C5A;
 $positioncolor: #8081AA;
 
+// Other Blue
+$otherblue: #00567F;
+
 // BUTTON COLORS
 $learnmorebutton: #EBEBEB;
 $experiencegreenbutton: #476D6B;
@@ -54,13 +57,14 @@ $darkred: darkred;
 $darkgreen: darkgreen;
 $darkgrey: darkgrey;
 
-
+// star with the transition and then star without remove after it loads
 * {
     margin: 0;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    // First Body
     body {
-        // overflow: hidden;
+        // transition: none !important;
         .container {
             background-color: $mainblue;
             margin: 0;
@@ -72,6 +76,7 @@ $darkgrey: darkgrey;
                 width: 100%;
                 z-index: 98;
                 height: 17vh;
+                // box-shadow: 1px 1px 2px $boxshadowcircles;
                 transition: 1s all ease-in-out;
                 .nav_top_contents {
                     display: flex;
@@ -266,6 +271,7 @@ $darkgrey: darkgrey;
             }
             .section_two {
                 background-color: $skillsteal;
+                // background-color: $otherblue;
                 height: 100vh;
                 .section_two_top {
                     display: flex;
@@ -1521,4 +1527,7 @@ $darkgrey: darkgrey;
     body.no_scroll {
         overflow: hidden;
     }
+    // body.preload {
+    //     transition: none !important;
+    // }
 }
