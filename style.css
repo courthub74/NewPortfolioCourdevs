@@ -778,24 +778,24 @@
   opacity: 1;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #heroku {
+  transition: 0.7s all ease-in;
   width: 12vw;
   height: 12vw;
   margin: 0 0 0.4vh 0;
   position: absolute;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #heroku.dissapear {
-  transition: 0.7s all ease-in;
+  transition: 0.3s all ease-in;
   opacity: 0;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #heroku_description {
-  transition: 0.3s all ease-out;
-  font-family: "Roboto", sans-serif;
-  font-size: 4vw;
-  color: white;
   opacity: 0;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #heroku_description.show {
-  transition: 0.7s all ease-in;
+  transition: 0.8s all ease-out;
+  font-family: "Roboto", sans-serif;
+  font-size: 4vw;
+  color: white;
   opacity: 1;
 }
 * body .container .section_four .section_four_bottom .responsive_title {

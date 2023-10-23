@@ -924,24 +924,24 @@ $darkgrey: darkgrey;
                                 opacity: 1;
                             }
                             #heroku {
+                                transition: .7s all ease-in;
                                 width: 12vw;
                                 height: 12vw;
                                 margin: 0 0 .4vh 0;
                                 position: absolute;
                             }
                             #heroku.dissapear {
-                                transition: .7s all ease-in;
+                                transition: .3s all ease-in;
                                 opacity: 0;
                             }
                             #heroku_description {
-                                transition: .3s all ease-out;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
                                 opacity: 0;
                             }
                             #heroku_description.show {
-                                transition: .7s all ease-in;
+                                transition: .8s all ease-out;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 4vw;
+                                color: white;
                                 opacity: 1;
                             }
                             // .description {

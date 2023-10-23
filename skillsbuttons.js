@@ -270,19 +270,28 @@ aws_skill.addEventListener('click', () => {
     }
     // setTimer for call of function
     setTimeout(aws_back_on, 3000);
-})
-// Heroku
-let heroku_skill = document.getElementById('heroku');
+});
 
-// QUERY THE LOGOS
+// HEROKU
 
-
-
-// QUERY THE DESCRIPTIONS
-
-// HTML
-// let html_descrip = document.getElementById('html_description');
-// Set the function to dissapear
-// function html_words_off() {
-//     html_descrip.classList.remove('show');
-// };
+// HEROKU BUTTON
+let heroku_skill = document.getElementById('heroku_skill');
+// HEROKU LOGO
+let heroku_logo = document.getElementById('heroku');
+// HEROKU TEXT
+let heroku_description = document.getElementById('heroku_description');
+// HEROKU EVENT LISTENER
+heroku_skill.addEventListener('click', () => {
+    console.log("HEROKU Button");
+    // Make logo dissapear
+    heroku_logo.classList.add('dissapear');
+    // Make text appear
+    heroku_description.classList.add('show');
+    function heroku_back_on() {
+        // function to reset the button
+        heroku_logo.classList.remove('dissapear');
+        heroku_description.classList.remove('show');
+    }
+    // setTimer for call of function
+    setTimeout(heroku_back_on, 3000);
+});
