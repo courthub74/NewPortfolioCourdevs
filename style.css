@@ -392,7 +392,7 @@
 * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links .github_link #github_app_link {
   width: 10vw;
   height: 10vw;
-  margin: 0 0 0 0.05vw;
+  margin: 0 0 0 0.049vw;
 }
 * body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links .link_link {
   display: flex;
@@ -426,6 +426,7 @@
   left: 100%;
   width: 100%;
   z-index: 100;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -439,16 +440,16 @@
   background-color: #36395D;
   border-radius: 5px;
   flex-direction: column;
-  width: 100%;
+  width: 85%;
   height: 84vh;
   transition: ease-in 0.8s;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: -35vh 0 0 0;
+  margin: 0vh 0 0 0;
 }
 * body .container .section_three .section_three_bottom .app2content .app2description .app2_logo #create_collab {
-  margin: 4vh 0 0 9vw;
+  margin: 4vh 0 0 8.5vw;
 }
 * body .container .section_three .section_three_bottom .app2content .app2description .app2_description p {
   color: white;
@@ -575,7 +576,7 @@
 * body .container .section_three .section_three_bottom .app2content .app2description .app2_links .github_link #github_app_link {
   width: 10vw;
   height: 10vw;
-  margin: 0 0 0 0.05vw;
+  margin: 0 0 0 0.049vw;
 }
 * body .container .section_three .section_three_bottom .app2content .app2description .app2_links .link_link {
   display: flex;

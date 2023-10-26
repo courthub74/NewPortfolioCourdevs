@@ -510,7 +510,7 @@ $darkgrey: darkgrey;
                                             #github_app_link {
                                                 width: 10vw;
                                                 height: 10vw;
-                                                margin: 0 0 0 .05vw;
+                                                margin: 0 0 0 0.049vw;
                                             }
                                         }
                                         .link_link {
@@ -551,7 +551,7 @@ $darkgrey: darkgrey;
                             left: 100%;
                             width: 100%;
                             z-index: 100;
-                            // position: fixed;
+                            position: fixed;
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
@@ -564,16 +564,16 @@ $darkgrey: darkgrey;
                                 background-color: $portfolios;
                                 border-radius: 5px;
                                 flex-direction: column;
-                                width: 100%;
+                                width: 85%;
                                 height: 84vh;
                                 transition: ease-in .8s;
                                 display: flex;
                                 flex-direction: column;
                                 align-items: center;
-                                margin: -35vh 0 0 0;
+                                margin: 0vh 0 0 0;
                                 .app2_logo {
                                     #create_collab {
-                                        margin: 4vh 0 0 9vw;
+                                        margin: 4vh 0 0 8.5vw;
                                     }
                                 }
                                 .app2_description {
@@ -707,7 +707,7 @@ $darkgrey: darkgrey;
                                         #github_app_link {
                                             width: 10vw;
                                             height: 10vw;
-                                            margin: 0 0 0 .05vw;
+                                            margin: 0 0 0 0.049vw;
                                         }
                                     }
                                     .link_link {

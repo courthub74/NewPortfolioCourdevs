@@ -13,6 +13,9 @@
 let whole_body = document.querySelector('body');
 // CONTAINER
 let whole_container = document.getElementById('whole_page');
+
+// APP 1
+
 // App 1 Button
 let app_1 = document.getElementById('app_1');
 // App 1 Content
@@ -37,12 +40,36 @@ app_1_back_button.addEventListener('click', function() {
     app_1_content.classList.remove('slide_in');
 });
 
-// App 2
+// APP 2
+
+// App 2 Button
 let app_2 = document.getElementById('app_2');
-// App 3
+// App 2 Content
+let app_2_content = document.getElementById('app2content');
+// App 2 Back Button
+let app_2_back_button = document.querySelector('.app2_back_arrow');
+// App 2 Button EventListener
+app_2.addEventListener('click', function() {
+    console.log("App 2 Button");
+    // toggle body to no-scroll
+    whole_body.classList.add('no_scroll');
+    // toggle app 2 content to slide-in
+    app_2_content.classList.add('slide_in');
+});
+// App 2 Back Button EventListener 
+app_2_back_button.addEventListener('click', function() {
+    console.log("Back Button");
+    // toggle body to scroll again
+    whole_body.classList.remove('no_scroll');
+    // toggle app 2 content to slide off
+    app_2_content.classList.remove('slide_in');
+});
+
+// APP 3
 let app_3 = document.getElementById('app_3');
 // App 4
 let app_4 = document.getElementById('app_4');
+
 
 
 
