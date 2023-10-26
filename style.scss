@@ -348,7 +348,7 @@ $darkgrey: darkgrey;
                     //////////////////////////////
                     // Portfolio App Content
                         // App 1 Content
-                        .app1content {
+                        .appcontent {
                             top: 0;
                             left: 100%;
                             width: 100%;
@@ -361,7 +361,7 @@ $darkgrey: darkgrey;
                             background-color: $mainblue;
                             height: 100vh;
                             transition: all .4s ease-out;
-                            .app1description {
+                            .appdescription {
                                 border: 2px solid $portfolios;
                                 background-color: $portfolios;
                                 border-radius: 5px;
@@ -529,7 +529,7 @@ $darkgrey: darkgrey;
                                     }
                             }
                         }
-                        .app1content.slide_in {
+                        #app1content.slide_in {
                             // add transition HERE
                             transition: all .6s ease-in;
                             left: 0;

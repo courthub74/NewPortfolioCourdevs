@@ -16,7 +16,7 @@ let whole_container = document.getElementById('whole_page');
 // App 1 Button
 let app_1 = document.getElementById('app_1');
 // App 1 Content
-let app_1_content = document.querySelector('.app1content');
+let app_1_content = document.getElementById('app1content');
 // App 1 Back Button
 let app_1_back_button = document.querySelector('.app1_back_arrow');
 // App 1 Button EventListener
