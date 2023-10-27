@@ -294,7 +294,7 @@ $darkgrey: darkgrey;
                         // text-align: center;
                         color: white;
                         font-family: 'Roboto', sans-serif;
-                        font-size: 3.5vw;
+                        font-size: 4vw;
                         .about_page_Logo {
                             display: flex;
                             justify-content: center;
@@ -1342,8 +1342,8 @@ $darkgrey: darkgrey;
                         }
                         .r1rcm_description {
                             // margin: 7.5vh 0 0 2.5vw;
-                            margin: 8vh 0 0 9vw;
-                            .main_description {
+                            margin: 8vh 0 0 4vw;
+                            .main_description_r1rcm {
                                 transition: .9s all ease-in;
                                 border: none;
                                 background-color: $portfolios;
@@ -1358,6 +1358,33 @@ $darkgrey: darkgrey;
                                     font-size: 3.5vw;
                                 }
                             }
+                            .main_description_r1rcm.dissapear {
+                                transition: .7s all ease-out;
+                                opacity: 0;
+                            }
+                            .detailed_description_r1rcm {
+                                margin: -9vh 0 0 5vw;
+                                text-align: left;
+                                opacity: 0;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 1vh;
+                                transition: .1s all ease-in;
+                                h1 {
+                                    color: $jobdescription;
+                                    font-size: 3.5vw;
+                                    font-family: 'Inter', sans-serif;
+                                    margin: 0 0 .5vh 0;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 3.2vw;
+                                }
+                            }
+                            .detailed_description_r1rcm.show {
+                                transition: .9s all ease-in;
+                                opacity: 1;
+                            }
                         }
                         // SLEA
                         .slea_logo {
@@ -1370,19 +1397,46 @@ $darkgrey: darkgrey;
                         .slea_description {
                             // margin: 7.5vh 0 0 2.5vw;
                             margin: 8vh 0 0 7.5vw;
-                            .main_description {
+                            .main_description_slea {
+                                    transition: .9s all ease-in;
+                                    border: none;
+                                    background-color: $portfolios;
+                                h1 {
+                                    color: white;
+                                    font-size: 5vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                                p {
+                                    color: $jobdescription;
+                                    font-size: 3.5vw;
+                                }
+                            }
+                            .main_description_slea.dissapear {
+                                transition: .7s all ease-out;
+                                opacity: 0;
+                            }
+                            .detailed_description_slea {
+                                margin: -9vh 0 0 2vw;
+                                text-align: left;
+                                opacity: 0;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 1vh;
+                                transition: .1s all ease-in;
+                                h1 {
+                                    color: $jobdescription;
+                                    font-size: 3.5vw;
+                                    font-family: 'Inter', sans-serif;
+                                    margin: 0 0 .5vh 0;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 3.2vw;
+                                }
+                            }
+                            .detailed_description_slea.show {
                                 transition: .9s all ease-in;
-                                border: none;
-                                background-color: $portfolios;
-                            h1 {
-                                color: white;
-                                font-size: 5vw;
-                                font-family: 'Inter', sans-serif;
-                            }
-                            p {
-                                color: $jobdescription;
-                                font-size: 3.5vw;
-                            }
+                                opacity: 1;
                             }
                         }
                     }
