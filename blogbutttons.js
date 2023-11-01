@@ -24,4 +24,6 @@ blog_one_back.addEventListener('click', function() {
     console.log("Blog ONE Back Arrow");
     // SLIDE OUT THE CONTENT
     blog_one_content.classList.remove('slide_in');
+    // toggle body to scroll again
+    whole_body_for_blog.classList.remove('no_scroll');
 });

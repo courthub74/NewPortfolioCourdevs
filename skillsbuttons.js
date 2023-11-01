@@ -203,42 +203,95 @@ python_skill.addEventListener('click', function () {
 // NODE JS
 
 // NODE JS BUTTON
-let nodejs_skill = document.getElementById('nodejs_skill');
+let expressjs_skill = document.getElementById('expressjs_skill');
 // NODE JS LOGO
-let nodejs_logo = document.getElementById('nodejs');
+let expressjs_logo = document.getElementById('expressjs');
 // NODE DESCRIPTION
-let nodejs_description = document.getElementById('nodejs_description');
+let expressjs_description = document.getElementById('expressjs_description');
 // NODE JS EVENT LISTENER
-nodejs_skill.addEventListener('click', function() {
+expressjs_skill.addEventListener('click', function() {
     console.log("NODE JS Button");
     // Make logo dissapear
-    nodejs_logo.classList.add('dissapear');
+    expressjs_logo.classList.add('dissapear');
     // Make text appear
-    nodejs_description.classList.add('show');
+    expressjs_description.classList.add('show');
     // function to reset the button
-    function nodejs_back_on() {
-        nodejs_logo.classList.remove('dissapear');
-        nodejs_description.classList.remove('show');
+    function expressjs_back_on() {
+        expressjs_logo.classList.remove('dissapear');
+        expressjs_description.classList.remove('show');
     }
     // setTimer for call of function
-    setTimeout(nodejs_back_on, 3000);
+    setTimeout(expressjs_back_on, 3000);
 });
-// Django
-let django_skill = document.getElementById('django');
+
+// DJANGO
+
+// DJANGO BUTTON
+let django_skill = document.getElementById('django_skill');
+// DJANGO LOGO
+let django_logo = document.getElementById('django');
+// DJANGO DESCRIPTION
+let django_description = document.getElementById('django_description');
+// DJANGO EVENT LISTENER
+django_skill.addEventListener('click', () => {
+    console.log("DJANGO Button");
+    // Make logo dissapear
+    django_logo.classList.add('dissapear');
+    // Make text appear
+    django_description.classList.add('show');
+    // function to reset the button
+    function django_back_on() {
+        django_logo.classList.remove('dissapear');
+        django_description.classList.remove('show');
+    }
+    // setTimer for call of function
+    setTimeout(django_back_on, 3000);
+});
+
 // AWS
-let aws_skill = document.getElementById('aws');
-// Heroku
-let heroku_skill = document.getElementById('heroku');
 
-// QUERY THE LOGOS
+// AWS BUTTON
+let aws_skill = document.getElementById('aws_skill');
+// AWS LOGO
+let aws_logo = document.getElementById('aws');
+// AWS TEXT
+let aws_description = document.getElementById('aws_description');
+// AWS EVENT LISTENER
+aws_skill.addEventListener('click', () => {
+    console.log("AWS Button");
+    // Make logo dissapear
+    aws_logo.classList.add('dissapear');
+    // Make text appear
+    aws_description.classList.add('show');
+    // function to reset the button
+    function aws_back_on() {
+        aws_logo.classList.remove('dissapear');
+        aws_description.classList.remove('show');
+    }
+    // setTimer for call of function
+    setTimeout(aws_back_on, 3000);
+});
 
+// HEROKU
 
-
-// QUERY THE DESCRIPTIONS
-
-// HTML
-// let html_descrip = document.getElementById('html_description');
-// Set the function to dissapear
-// function html_words_off() {
-//     html_descrip.classList.remove('show');
-// };
+// HEROKU BUTTON
+let heroku_skill = document.getElementById('heroku_skill');
+// HEROKU LOGO
+let heroku_logo = document.getElementById('heroku');
+// HEROKU TEXT
+let heroku_description = document.getElementById('heroku_description');
+// HEROKU EVENT LISTENER
+heroku_skill.addEventListener('click', () => {
+    console.log("HEROKU Button");
+    // Make logo dissapear
+    heroku_logo.classList.add('dissapear');
+    // Make text appear
+    heroku_description.classList.add('show');
+    function heroku_back_on() {
+        // function to reset the button
+        heroku_logo.classList.remove('dissapear');
+        heroku_description.classList.remove('show');
+    }
+    // setTimer for call of function
+    setTimeout(heroku_back_on, 3000);
+});

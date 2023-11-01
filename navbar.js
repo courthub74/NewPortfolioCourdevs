@@ -27,34 +27,6 @@ let job_description = document.querySelector('.you');
 
 // set a last scroll
 let lastScroll = 0;
- 
-// Write a function that makes the
-    // navbar dissapear after reappearing on scroll up
-        // and sitting idle for 5 seconds
-// function out () {
-//     console.log("It's been 5 seconds since your scroll");
-//     top_navbar.classList.add('dissapear');
-//     menu_burger.classList.add('dissapear');
-// };
-
-// function out_reverse () {
-//     console.log("You have reversed the out function");
-//     top_navbar.classList.remove('dissapear');
-//     menu_burger.classList.remove('dissapear');
-// };
-
-// Perform a setInterval when calling the function
-    // and store it in a variable
-    // We Need to measure it by scrolls
-// setInterval(out, 5000);
-
-// NOW the issue is to restart the process
-    // after you clear the setInterval at the top
-        // of the page
-
-// Let's use the boolean method used in a timer
-    // where you hit the button to stop time and
-        // resume time
 
 // FIRST start to be currentScroll = 0;
 
@@ -68,7 +40,7 @@ window.addEventListener('scroll', function () {
         // Navbar background
         top_navbar.classList.add('dissapear');
         // Navbar Logo
-        // top_logo.classList.add('dissapear');
+        top_logo.classList.add('dissapear');
         // Menu Burger
         menu_burger.classList.add('dissapear');
         // Job Description
@@ -80,6 +52,7 @@ window.addEventListener('scroll', function () {
         top_navbar.classList.remove('dissapear');
         menu_burger.classList.remove('dissapear');
         job_description.classList.add('appear');
+        // top_logo.classList.remove('dissapear');
         // Time the Navbar to dissapear again after
             // 5 Seconds
        
@@ -88,6 +61,7 @@ window.addEventListener('scroll', function () {
         // This is at top of the page
         if (currentScroll === 0) {
             job_description.classList.remove('appear');
+            top_logo.classList.remove('dissapear');
         }
     } 
     // So you are incrementing each scroll

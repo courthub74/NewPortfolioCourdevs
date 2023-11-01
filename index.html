@@ -18,11 +18,18 @@
                 <img src="./img/Courdevelops 4.png" id="courdevs_top_logo" alt="courdevs_top_logo">
                  <div class="you">
                     <p id="name">Courtney Jacobs</p>
-                    <p id="job_description">Web Application Developer</p>   
+                    <div class="desc_menu_box">
+                        <p id="job_description">Web Application Maker</p>
+                    </div>   
                 </div>
                 <img src="./img/hamburger.png" id="top_hamburger" alt="top_hamburger">
             </div>
         </nav>
+
+        <!-- SLIDE IN MENU -->
+        <section class="slide_in_menu">
+            <!-- Here is the slide in -->
+        </section>
 
         <!-- Section One -->
         <div class="section_one">
@@ -91,9 +98,8 @@
                     <p>
                         <br>
                         I am a user centric developer that realized my passion for the end user experience
-                        early in my tech career. I once voluntarily made improvements to a tester that the 
-                        backend engineers made for our tech support team to assist 
-                        them in testing. <br><br> I believe that the gig economy is the future of work. 
+                        early in my tech career. Working tech support supervisor I once voluntarily made improvements to a tester that the 
+                        backend engineers I worked with. That made all of our lives easier, and I was hooked on web development since. <br><br> I believe that the gig economy is the future of work. 
                         I want to contribute to it by developing apps that are easy to use 
                         and help budding web developers gain valuable work experience.
                     </p>
@@ -121,9 +127,11 @@
                     <!-- /////////////////////////////////////// -->
                     <!-- /////////////////////////////////////// -->
                     <!-- /////////////////////////////////////// -->
-                     <!-- App 1 Description -->
-                     <div class="app1content">
-                        <div class="app1description">
+                     <!-- App 1 Background page -->
+                     <div class="appcontent" id="app1content">
+                        <!-- App 1 outline square -->
+                        <div class="appdescription">
+                            <!-- App 1 Content -->
                             <!-- The App Logo -->
                             <header class="app1_logo">
                                 <img src="/img/Projects/SkillProjectLogo.png" id="skill_project_img" alt="skill_project">
@@ -166,7 +174,7 @@
                             <!-- The App Links -->
                             <div class="app1_links">
                                 <!-- Github Circle -->
-                                <a href="#" class="github_link">
+                                <a target="_blank" href="https://github.com" class="github_link">
                                     <img src="/img/socials/GreenSocials/github_green.png" id="github_app_link" alt="github">
                                 </a>
                                 <!-- Link Circle -->
@@ -183,15 +191,63 @@
                     <!-- /////////////////////////////////////// -->
                     <!-- /////////////////////////////////////// -->
                     <!-- /////////////////////////////////////// -->
-                    <!-- /////////////////////////////////////// -->
-                    <!-- /////////////////////////////////////// -->
-                    <!-- /////////////////////////////////////// -->
-                    <!-- /////////////////////////////////////// -->
                     <!-- App 2 Description -->
-                    <div class="app2content">
+                    <div class="app2content" id="app2content">
                         <div class="app2description">
-                            <p>App 2 Description</p>
+                            <header class="app2_logo">
+                                <img src="/img/Projects/CreateCollab2.png" id="create_collab" alt="create_collab">
+                            </header>
+                            <!-- The App description -->
+                            <div class="app2_description">
+                                <p>This is an app that does cool stuff</p>
+                            </div>
+                            <!-- The App tech circles -->
+                            <div class="app2_technologies">
+                                <p>Technologies Used:</p>
+                                <div class="technology_circles2_portfolio">
+                                    <div class="tech_1">
+                                        <img src="/img/petiteicons/petitereact.png" class="react_app1" alt="react">
+                                        <p class="app_circle_descriptions">React</p>
+                                    </div>
+                                    <div class="tech_2">
+                                        <img src="/img/petiteicons/petiteexpressjs.png" id="express_tech_circle" alt="react">
+                                        <p class="app_circle_descriptions">Express</p>
+                                    </div>
+                                    <div class="tech_3">
+                                        <img src="/img/petiteicons/petiteaws.png" class="react_app1" alt="react-native">
+                                        <p class="app_circle_descriptions">AWS</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- The App Accomplishments -->
+                            <div class="app1_accomplishments">
+                                <div class="accomp_list">
+                                    <ul>
+                                        <li id="accomp_header_2">Accomplishments:</li>
+                                        <li>First Accomplishment</li>
+                                        <li>Second Accomplishment</li>
+                                        <li>Third Accomplishment</li>
+                                        <li>Fourth Accomplishment</li>
+                                        <li>Fifth Accomplishment</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- The App Links -->
+                            <div class="app2_links">
+                                <!-- Github Circle -->
+                                <a target="_blank" href="https://github.com" class="github_link">
+                                    <img src="/img/socials/GreenSocials/github_green.png" id="github_app_link" alt="github">
+                                </a>
+                                <!-- Link Circle -->
+                                <a href="#" class="link_link">
+                                    <img src="/img/socials/GreenSocials/world_link_green.png" id="link_app_link" alt="link">
+                                </a>
+                            </div>
                         </div>
+                        <!-- Back Arrow -->
+                        <button class="app2_back_arrow">
+                            <img src="/img/arrows/grey_back_arrow.png" id="back_arrow" alt="back_arrow">
+                        </button>
                     </div>
                     <!-- App 3 Description -->
                     <div class="app3content">
@@ -222,7 +278,7 @@
                     </button>
                     <button class="portfolio_square" id="app_2">
                         <div class="app">
-                            <img src="./img/Projects/CreateCollab.png" id="create_collab" alt="create_collab">
+                            <img src="./img/Projects/CreateCollab2.png" id="create_collab" alt="create_collab">
                         </div>
                     </button>
                     <button class="portfolio_square" id="app_3">
@@ -372,6 +428,19 @@
                             </button>
                         </div>
 
+                        <!-- EXPRESS JS -->
+                        <div class="skill_circle">
+                            <!-- Outer Background Circle -->
+                                <!-- Green w Blue Border -->
+                            <div class="skill_back"></div>
+                            <!-- Front SASS -->
+                                 <!-- Blue -->
+                            <button class="skill_front" id="expressjs_skill">
+                                <img src="./img/skills/backend/whiteicons/expressjs.png" id="expressjs" alt="expressjs">
+                                <div id="expressjs_description">ExpressJS</div>
+                            </button>
+                        </div>
+
                         <!-- PYTHON -->
                         <div class="skill_circle" id="python_skill">
                             <!-- Outer Background Circle -->
@@ -382,19 +451,6 @@
                             <button class="skill_front" id="python_skill">
                                 <img src="./img/skills/backend/whiteicons/python.png" id="python" alt="python">
                                 <div id="python_description">Python</div>
-                            </button>
-                        </div>
-
-                        <!-- NODE JS -->
-                        <div class="skill_circle">
-                            <!-- Outer Background Circle -->
-                                <!-- Green w Blue Border -->
-                            <div class="skill_back"></div>
-                            <!-- Front SASS -->
-                                 <!-- Blue -->
-                            <button class="skill_front" id="nodejs_skill">
-                                <img src="./img/skills/backend/whiteicons/nodejs.png" id="nodejs" alt="nodejs">
-                                <div id="nodejs_description">Node JS</div>
                             </button>
                         </div>
                     </div>
@@ -420,9 +476,9 @@
                             <div class="skill_back"></div>
                             <!-- Front DJANGO -->
                                 <!-- Blue -->
-                            <button class="skill_front">
+                            <button class="skill_front" id="django_skill">
                                 <img src="./img/skills/backend/whiteicons/django.png" id="django" alt="django">
-                                <div class="description">Django</div>
+                                <div id="django_description">Django</div>
                             </button>
                         </div>
 
@@ -433,9 +489,9 @@
                             <div class="skill_back"></div>
                             <!-- Front AWS -->
                                 <!-- Blue -->
-                            <button class="skill_front">
+                            <button class="skill_front" id="aws_skill">
                                 <img src="./img/skills/backend/whiteicons/aws.png" id="aws" alt="aws">
-                                <div class="description">AWS</div>
+                                <div id="aws_description">AWS</div>
                             </button>
                         </div>
 
@@ -446,9 +502,9 @@
                             <div class="skill_back"></div>
                             <!-- Front HEROKU -->
                                 <!-- Blue -->
-                            <button class="skill_front">
+                            <button class="skill_front" id="heroku_skill">
                                 <img src="./img/skills/backend/whiteicons/heroku.png" id="heroku" alt="heroku">
-                                <div class="description">Heroku</div>
+                                <div id="heroku_description">Heroku</div>
                             </button>
                         </div>
                     </div>
@@ -491,7 +547,7 @@
                         <div class="detailed_description">
                             <div class="courdevelops_dates">
                                 <h1>Dates:</h1>
-                                <p>March 2020 - Present</p>
+                                <p>Mar 2020 - Present</p>
                             </div>
                             <div class="courdevelops_duties">
                                 <h1>Duties:</h1>
@@ -502,7 +558,7 @@
                         </div>
                     </div>
                 </button>
-                <button class="experience_box">
+                <button class="experience_box" id="r1rcm_button">
                     <!-- RCR1M -->
                     <!-- Logo -->
                     <div class="r1rcm_logo">
@@ -512,13 +568,26 @@
                     <!-- <div class="vl" id="r1rcm_vl"></div> -->
                     <!-- Description -->
                     <div class="r1rcm_description">
-                        <div class="main_description">
+                        <div class="main_description_r1rcm">
                             <h1>R1RCM</h1>
                             <p>Technical Engineer</p>
                         </div>
+                        <!-- The Job Description -->
+                        <div class="detailed_description_r1rcm">
+                            <div class="r1rcm_dates">
+                                <h1>Dates:</h1>
+                                <p>Nov 2018 - Mar 2020</p>
+                            </div>
+                            <div class="r1rcm_duties">
+                                <h1>Duties:</h1>
+                                <p>Workstation configurations</p>
+                                <p>Group policy</p>
+                                <p>Network engineering</p>
+                            </div>
+                        </div>
                     </div>
                 </button>
-                <button class="experience_box">
+                <button class="experience_box" id="slea_button">
                     <!-- SLEA -->
                     <!-- Logo -->
                     <div class="slea_logo">
@@ -528,9 +597,22 @@
                     <!-- <div class="vl"></div> -->
                     <!-- Description -->
                     <div class="slea_description">
-                        <div class="main_description">
+                        <div class="main_description_slea">
                             <h1>SLEA</h1>
                             <p>Technical Supervisor</p>
+                        </div>
+                        <!-- The Job Description -->
+                        <div class="detailed_description_slea">
+                            <div class="slea_dates">
+                                <h1>Dates:</h1>
+                                <p>Nov 2018 - Mar 2020</p>
+                            </div>
+                            <div class="slea_duties">
+                                <h1>Duties:</h1>
+                                <p>Tier 1 task Delegation</p>
+                                <p>Perform/Stress Testing</p>
+                                <p>TCP/IP configuration</p>
+                            </div>
                         </div>
                     </div>
                 </button>
@@ -564,6 +646,31 @@
                         <!-- Blog 1 Content -->
                         <div class="blog_one_content_outline">
                             <div class="blog_one_content">
+                                <p>In web development it's quite the journey.
+                                    You have to find your way.  It's more link
+                                    a journey through the wilderness, not like 
+                                    getting a certificate for a well paying, 
+                                    cushy job.  This will be fufilling yet
+                                    filled with stress.  It's not for the faint 
+                                    of heart.
+                                    <br><br>
+                                    In web development it's quite the journey.
+                                    You have to find your way.  It's more link
+                                    a journey through the wilderness, not like 
+                                    getting a certificate for a well paying, 
+                                    cushy job.  This will be fufilling yet
+                                    filled with stress.  It's not for the faint 
+                                    of heart. 
+                                    <br><br>
+                                    In web development it's quite the journey.
+                                    You have to find your way.  It's more link
+                                    a journey through the wilderness, not like 
+                                    getting a certificate for a well paying, 
+                                    cushy job.  This will be fufilling yet
+                                    filled with stress.  It's not for the faint 
+                                    of heart. Here's more Here's more Here's more
+                                </p>
+                                <!-- <p>This is the Content.  It's some sentences</p>
                                 <p>This is the Content.  It's some sentences</p>
                                 <p>This is the Content.  It's some sentences</p>
                                 <p>This is the Content.  It's some sentences</p>
@@ -606,9 +713,7 @@
                                 <p>This is the Content.  It's some sentences</p>
                                 <p>This is the Content.  It's some sentences</p>
                                 <p>This is the Content.  It's some sentences</p>
-                                <p>This is the Content.  It's some sentences</p>
-                                <p>This is the Content.  It's some sentences</p>
-                                <p>This is the Content.  It's some sentences</p>
+                                <p>This is the Content.  It's some sentences</p> -->
                             </div>
                         </div>
                         <!-- Bottom 1 Circle -->
@@ -720,6 +825,9 @@
 
     <!-- JS -->
 
+    <!-- Preload -->
+    <script>//</script>
+    <!-- <script src="windowload.js"></script> -->
     <!-- NavBar -->
     <script src="navbar.js"></script>
     <!-- Portfolio buttons -->

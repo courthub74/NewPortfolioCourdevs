@@ -14,7 +14,7 @@
   top: 0;
   width: 100%;
   z-index: 98;
-  height: 14vh;
+  height: 17vh;
   transition: 1s all ease-in-out;
 }
 * body .container .the_top_nav .nav_top_contents {
@@ -22,10 +22,10 @@
   justify-content: space-between;
 }
 * body .container .the_top_nav .nav_top_contents #courdevs_top_logo {
-  width: 25vw;
-  height: 25vw;
-  margin: 2vh 0 0 5vw;
-  transition: 1s all ease-in-out;
+  width: 28w;
+  height: 28vw;
+  margin: 3vh 0 0 9vw;
+  transition: 3s all ease-in-out;
 }
 * body .container .the_top_nav .nav_top_contents #courdevs_top_logo.dissapear {
   opacity: 0;
@@ -36,20 +36,26 @@
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  margin: 5.5vh 0 0 -4vw;
+  gap: 0.5vh;
+  margin: 5vh 0 0 -55vw;
   opacity: 0;
   transition: 1s all ease-in-out;
 }
 * body .container .the_top_nav .nav_top_contents .you #name {
   color: white;
-  font-size: 4vw;
+  font-size: 5vw;
   font-family: "Inter", sans-serif;
   font-weight: bold;
   margin: 0 0 0 0vw;
 }
-* body .container .the_top_nav .nav_top_contents .you #job_description {
+* body .container .the_top_nav .nav_top_contents .you .desc_menu_box {
+  background-color: #36395D;
+  padding: 2vw;
+  border-radius: 5px;
+}
+* body .container .the_top_nav .nav_top_contents .you .desc_menu_box #job_description {
   color: #8081AA;
-  font-size: 3.5vw;
+  font-size: 3.3vw;
   font-family: "Roboto", sans-serif;
 }
 * body .container .the_top_nav .nav_top_contents .you.appear {
@@ -57,9 +63,9 @@
   transition: 1s all ease-in-out;
 }
 * body .container .the_top_nav .nav_top_contents #top_hamburger {
-  width: 12vw;
-  height: 12vw;
-  margin: 4.5vh 8vw 0 0;
+  width: 10vw;
+  height: 10vw;
+  margin: 6.5vh 15vw 0 0;
   transition: 1s all ease-in-out;
 }
 * body .container .the_top_nav .nav_top_contents #top_hamburger.dissapear {
@@ -98,7 +104,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: -30vh 0 0 0;
+  margin: -24vh 0 0 0;
 }
 * body .container .section_one .section_one_headshot #home_headshot {
   width: 45vw;
@@ -127,7 +133,7 @@
 * body .container .section_one .section_one_content .home_name h1 {
   font-family: "Inter", sans-serif;
   color: white;
-  font-size: 8.5vw;
+  font-size: 7vw;
 }
 * body .container .section_one .section_one_content .job_description {
   display: flex;
@@ -141,7 +147,7 @@
 * body .container .section_one .section_one_content .job_description p {
   font-family: "Roboto", sans-serif;
   color: #8081AA;
-  font-size: 20px;
+  font-size: 5vw;
 }
 * body .container .section_one .section_one_content .my_mantra {
   display: flex;
@@ -150,14 +156,13 @@
 * body .container .section_one .section_one_content .my_mantra p {
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 4.5vw;
-  font-weight: bold;
+  font-size: 4vw;
   text-align: center;
 }
 * body .container .section_one .section_one_content .learn_more {
   width: 70vw;
   height: 10vw;
-  margin: 13vh 0 -15vh 0;
+  margin: 12vh 0 -15vh 0;
   border-radius: 5px;
   background-color: #36395D;
   border: none;
@@ -168,7 +173,7 @@
   color: white;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-size: 4vw;
+  font-size: 3.5vw;
 }
 * body .container .section_two {
   background-color: #146166;
@@ -193,6 +198,7 @@
   width: 82%;
   color: white;
   font-family: "Roboto", sans-serif;
+  font-size: 4vw;
 }
 * body .container .section_two .section_two_bottom .about_content .about_page_Logo {
   display: flex;
@@ -231,7 +237,7 @@
   align-items: center;
   margin: 8vh 0 0 0;
 }
-* body .container .section_three .section_three_bottom .app1content {
+* body .container .section_three .section_three_bottom .appcontent {
   top: 0;
   left: 100%;
   width: 100%;
@@ -245,7 +251,7 @@
   height: 100vh;
   transition: all 0.4s ease-out;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description {
+* body .container .section_three .section_three_bottom .appcontent .appdescription {
   border: 2px solid #36395D;
   background-color: #36395D;
   border-radius: 5px;
@@ -258,16 +264,16 @@
   align-items: center;
   margin: 0vh 0 0 0;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_logo #skill_project_img {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_logo #skill_project_img {
   margin: 4vh 0 0 0;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_description p {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_description p {
   color: white;
   font-family: "Inter", sans-serif;
   margin: 6vh 0 0 0;
   font-size: 3.5vw;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -277,19 +283,19 @@
   font-weight: bold;
   margin: 7vh 0 0 0;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies p {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies p {
   font-size: 3.5vw;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio {
   display: flex;
   gap: 1vh;
   margin: 3vh 0 0 0;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio .react_app1 {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .react_app1 {
   width: 10vw;
   height: 10vw;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio .tech_1 {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -300,13 +306,13 @@
   background-color: #00567F;
   border-radius: 50%;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio .tech_1 .app_circle_descriptions {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_1 .app_circle_descriptions {
   font-family: "Inter", sans-serif;
   font-size: 3vw;
   font-weight: normal;
   color: #B7BCD6;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio .tech_2 {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -317,19 +323,19 @@
   background-color: #00567F;
   border-radius: 50%;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio .tech_2 #express_tech_circle {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_2 #express_tech_circle {
   width: 8vw;
   height: 8vw;
   margin-top: 0.5vh;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio .tech_2 .app_circle_descriptions {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_2 .app_circle_descriptions {
   font-family: "Inter", sans-serif;
   font-size: 3vw;
   font-weight: normal;
   color: #B7BCD6;
   margin-top: 0.5vh;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio .tech_3 {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -340,41 +346,41 @@
   background-color: #00567F;
   border-radius: 50%;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_technologies .technology_circles_portfolio .tech_3 .app_circle_descriptions {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_technologies .technology_circles_portfolio .tech_3 .app_circle_descriptions {
   font-family: "Inter", sans-serif;
   font-size: 3vw;
   font-weight: normal;
   color: #B7BCD6;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_accomplishments {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_accomplishments {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 5vh 0 0 0;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_accomplishments .accomp_list {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_accomplishments .accomp_list {
   margin: 0 10vw 0 0;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_accomplishments .accomp_list ul {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_accomplishments .accomp_list ul {
   text-align: center;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_accomplishments .accomp_list ul #accomp_header {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_accomplishments .accomp_list ul #accomp_header {
   font-weight: bold;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_accomplishments .accomp_list ul li {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_accomplishments .accomp_list ul li {
   font-family: "Inter", sans-serif;
   color: white;
   font-size: 3.5vw;
   list-style: none;
   padding: 1vh 1vh;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_links {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links {
   display: flex;
   gap: 4vw;
   margin: 6vh 0 0 0;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_links .github_link {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links .github_link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -383,12 +389,12 @@
   border-radius: 50%;
   background-color: #d9e2e2;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_links .github_link #github_app_link {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links .github_link #github_app_link {
   width: 10vw;
   height: 10vw;
-  margin: 0 0 0 0.05vw;
+  margin: 0 0 0 0.049vw;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_links .link_link {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links .link_link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -397,12 +403,12 @@
   border-radius: 50%;
   background-color: #d9e2e2;
 }
-* body .container .section_three .section_three_bottom .app1content .app1description .app1_links .link_link #link_app_link {
+* body .container .section_three .section_three_bottom .appcontent .appdescription .app1_links .link_link #link_app_link {
   width: 10vw;
   height: 10vw;
   margin: -0.3vh 0.5vw 0 0;
 }
-* body .container .section_three .section_three_bottom .app1content.slide_in {
+* body .container .section_three .section_three_bottom #app1content.slide_in {
   transition: all 0.6s ease-in;
   left: 0;
 }
@@ -416,21 +422,188 @@
   height: 7vw;
 }
 * body .container .section_three .section_three_bottom .app2content {
+  top: 0;
+  left: 100%;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #080E2F;
+  height: 100vh;
+  transition: all 0.4s ease-out;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description {
   border: 2px solid #36395D;
   background-color: #36395D;
   border-radius: 5px;
-  top: 0;
-  left: 100%;
-  width: 105%;
-  height: 90vh;
-  margin: -13vh 0 0 0vw;
+  flex-direction: column;
+  width: 85%;
+  height: 84vh;
   transition: ease-in 0.8s;
-  z-index: 100;
-  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0vh 0 0 0;
 }
-* body .container .section_three .section_three_bottom .app2content p {
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_logo #create_collab {
+  margin: 4vh 0 0 8.5vw;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_description p {
   color: white;
+  font-family: "Inter", sans-serif;
+  margin: 6vh 0 0 0;
+  font-size: 3.5vw;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin: 7vh 0 0 0;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies p {
+  font-size: 3.5vw;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio {
+  display: flex;
+  gap: 1vh;
+  margin: 3vh 0 0 0;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .react_app1 {
+  width: 10vw;
+  height: 10vw;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vw;
+  background-color: #05607D;
+  background-color: #00567F;
+  border-radius: 50%;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_1 .app_circle_descriptions {
+  font-family: "Inter", sans-serif;
+  font-size: 3vw;
+  font-weight: normal;
+  color: #B7BCD6;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vw;
+  background-color: #05607D;
+  background-color: #00567F;
+  border-radius: 50%;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_2 #express_tech_circle {
+  width: 8vw;
+  height: 8vw;
+  margin-top: 0.5vh;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_2 .app_circle_descriptions {
+  font-family: "Inter", sans-serif;
+  font-size: 3vw;
+  font-weight: normal;
+  color: #B7BCD6;
+  margin-top: 0.5vh;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 20vw;
+  background-color: #05607D;
+  background-color: #00567F;
+  border-radius: 50%;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_technologies .technology_circles2_portfolio .tech_3 .app_circle_descriptions {
+  font-family: "Inter", sans-serif;
+  font-size: 3vw;
+  font-weight: normal;
+  color: #B7BCD6;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app1_accomplishments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh 0 0 0;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app1_accomplishments .accomp_list {
+  margin: 0 10vw 0 0;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app1_accomplishments .accomp_list ul {
   text-align: center;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app1_accomplishments .accomp_list ul #accomp_header {
+  font-weight: bold;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app1_accomplishments .accomp_list ul li {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-size: 3.5vw;
+  list-style: none;
+  padding: 1vh 1vh;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_links {
+  display: flex;
+  gap: 4vw;
+  margin: 6vh 0 0 0;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_links .github_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 50%;
+  background-color: #d9e2e2;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_links .github_link #github_app_link {
+  width: 10vw;
+  height: 10vw;
+  margin: 0 0 0 0.049vw;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_links .link_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 50%;
+  background-color: #d9e2e2;
+}
+* body .container .section_three .section_three_bottom .app2content .app2description .app2_links .link_link #link_app_link {
+  width: 10vw;
+  height: 10vw;
+  margin: -0.3vh 0.5vw 0 0;
+}
+* body .container .section_three .section_three_bottom #app2content.slide_in {
+  transition: all 0.6s ease-in;
+  left: 0;
+}
+* body .container .section_three .section_three_bottom .app2_back_arrow {
+  background: none;
+  border: none;
+  margin: 3vh 0 0 0;
+}
+* body .container .section_three .section_three_bottom .app2_back_arrow #back_arrow {
+  width: 7vw;
+  height: 7vw;
 }
 * body .container .section_three .section_three_bottom .app3content {
   border: 2px solid #36395D;
@@ -540,8 +713,8 @@
   align-items: center;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front .shield {
-  width: 12vw;
-  height: 12vw;
+  width: 10vw;
+  height: 10vw;
   margin: 1vh 0 1vh 0;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #html {
@@ -707,21 +880,21 @@
   color: white;
   opacity: 1;
 }
-* body .container .section_four .section_four_bottom .skill_circle .skill_front #nodejs {
+* body .container .section_four .section_four_bottom .skill_circle .skill_front #expressjs {
   transition: 0.7s all ease-in;
-  width: 13vw;
-  height: 14vw;
+  width: 11vw;
+  height: 11vw;
   margin: 0 0 0.4vh 0;
   position: absolute;
 }
-* body .container .section_four .section_four_bottom .skill_circle .skill_front #nodejs.dissapear {
+* body .container .section_four .section_four_bottom .skill_circle .skill_front #expressjs.dissapear {
   transition: 0.3s all ease-in;
   opacity: 0;
 }
-* body .container .section_four .section_four_bottom .skill_circle .skill_front #nodejs_description {
+* body .container .section_four .section_four_bottom .skill_circle .skill_front #expressjs_description {
   opacity: 0;
 }
-* body .container .section_four .section_four_bottom .skill_circle .skill_front #nodejs_description.show {
+* body .container .section_four .section_four_bottom .skill_circle .skill_front #expressjs_description.show {
   transition: 0.8s all ease-out;
   font-family: "Roboto", sans-serif;
   font-size: 4vw;
@@ -729,66 +902,67 @@
   opacity: 1;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #django {
-  width: 13vw;
-  height: 11vw;
+  transition: 0.7s all ease-in;
+  width: 11vw;
+  height: 9vw;
   margin: 0 1vw 0 0;
   position: absolute;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #django.dissapear {
-  transition: 0.7s all ease-in;
+  transition: 0.3s all ease-in;
   opacity: 0;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #django_description {
-  transition: 0.3s all ease-out;
-  font-family: "Roboto", sans-serif;
-  font-size: 4vw;
-  color: white;
   opacity: 0;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #django_description.show {
-  transition: 0.7s all ease-in;
+  transition: 0.8s all ease-out;
+  font-family: "Roboto", sans-serif;
+  font-size: 4vw;
+  margin-top: -0.3vh;
+  color: white;
   opacity: 1;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #aws {
-  width: 15vw;
-  height: 15vw;
+  transition: 0.7s all ease-in;
+  width: 13vw;
+  height: 13vw;
   margin: 0.5vh 0 0.4vh 0;
   position: absolute;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #aws.dissapear {
-  transition: 0.7s all ease-in;
+  transition: 0.3s all ease-in;
   opacity: 0;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #aws_description {
-  transition: 0.3s all ease-out;
-  font-family: "Roboto", sans-serif;
-  font-size: 4vw;
-  color: white;
   opacity: 0;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #aws_description.show {
-  transition: 0.7s all ease-in;
+  transition: 0.8s all ease-out;
+  font-family: "Roboto", sans-serif;
+  font-size: 4vw;
+  color: white;
   opacity: 1;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #heroku {
+  transition: 0.7s all ease-in;
   width: 12vw;
   height: 12vw;
   margin: 0 0 0.4vh 0;
   position: absolute;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #heroku.dissapear {
-  transition: 0.7s all ease-in;
+  transition: 0.3s all ease-in;
   opacity: 0;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #heroku_description {
-  transition: 0.3s all ease-out;
-  font-family: "Roboto", sans-serif;
-  font-size: 4vw;
-  color: white;
   opacity: 0;
 }
 * body .container .section_four .section_four_bottom .skill_circle .skill_front #heroku_description.show {
-  transition: 0.7s all ease-in;
+  transition: 0.8s all ease-out;
+  font-family: "Roboto", sans-serif;
+  font-size: 4vw;
+  color: white;
   opacity: 1;
 }
 * body .container .section_four .section_four_bottom .responsive_title {
@@ -976,22 +1150,49 @@
   height: 14vw;
 }
 * body .container .section_five .section_five_bottom .experience_box .r1rcm_description {
-  margin: 8vh 0 0 9vw;
+  margin: 8vh 0 0 4vw;
 }
-* body .container .section_five .section_five_bottom .experience_box .r1rcm_description .main_description {
+* body .container .section_five .section_five_bottom .experience_box .r1rcm_description .main_description_r1rcm {
   transition: 0.9s all ease-in;
   border: none;
   background-color: #36395D;
 }
-* body .container .section_five .section_five_bottom .experience_box .r1rcm_description .main_description h1 {
+* body .container .section_five .section_five_bottom .experience_box .r1rcm_description .main_description_r1rcm h1 {
   color: white;
   font-size: 5vw;
   font-family: "Inter", sans-serif;
 }
-* body .container .section_five .section_five_bottom .experience_box .r1rcm_description .main_description p {
+* body .container .section_five .section_five_bottom .experience_box .r1rcm_description .main_description_r1rcm p {
   color: #00C6C3;
   font-size: 1em;
   font-size: 3.5vw;
+}
+* body .container .section_five .section_five_bottom .experience_box .r1rcm_description .main_description_r1rcm.dissapear {
+  transition: 0.7s all ease-out;
+  opacity: 0;
+}
+* body .container .section_five .section_five_bottom .experience_box .r1rcm_description .detailed_description_r1rcm {
+  margin: -9vh 0 0 5vw;
+  text-align: left;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  transition: 0.1s all ease-in;
+}
+* body .container .section_five .section_five_bottom .experience_box .r1rcm_description .detailed_description_r1rcm h1 {
+  color: #00C6C3;
+  font-size: 3.5vw;
+  font-family: "Inter", sans-serif;
+  margin: 0 0 0.5vh 0;
+}
+* body .container .section_five .section_five_bottom .experience_box .r1rcm_description .detailed_description_r1rcm p {
+  color: white;
+  font-size: 3.2vw;
+}
+* body .container .section_five .section_five_bottom .experience_box .r1rcm_description .detailed_description_r1rcm.show {
+  transition: 0.9s all ease-in;
+  opacity: 1;
 }
 * body .container .section_five .section_five_bottom .experience_box .slea_logo {
   margin: 5vh 0 0 8vw;
@@ -1003,19 +1204,46 @@
 * body .container .section_five .section_five_bottom .experience_box .slea_description {
   margin: 8vh 0 0 7.5vw;
 }
-* body .container .section_five .section_five_bottom .experience_box .slea_description .main_description {
+* body .container .section_five .section_five_bottom .experience_box .slea_description .main_description_slea {
   transition: 0.9s all ease-in;
   border: none;
   background-color: #36395D;
 }
-* body .container .section_five .section_five_bottom .experience_box .slea_description .main_description h1 {
+* body .container .section_five .section_five_bottom .experience_box .slea_description .main_description_slea h1 {
   color: white;
   font-size: 5vw;
   font-family: "Inter", sans-serif;
 }
-* body .container .section_five .section_five_bottom .experience_box .slea_description .main_description p {
+* body .container .section_five .section_five_bottom .experience_box .slea_description .main_description_slea p {
   color: #00C6C3;
   font-size: 3.5vw;
+}
+* body .container .section_five .section_five_bottom .experience_box .slea_description .main_description_slea.dissapear {
+  transition: 0.7s all ease-out;
+  opacity: 0;
+}
+* body .container .section_five .section_five_bottom .experience_box .slea_description .detailed_description_slea {
+  margin: -9vh 0 0 2vw;
+  text-align: left;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  transition: 0.1s all ease-in;
+}
+* body .container .section_five .section_five_bottom .experience_box .slea_description .detailed_description_slea h1 {
+  color: #00C6C3;
+  font-size: 3.5vw;
+  font-family: "Inter", sans-serif;
+  margin: 0 0 0.5vh 0;
+}
+* body .container .section_five .section_five_bottom .experience_box .slea_description .detailed_description_slea p {
+  color: white;
+  font-size: 3.2vw;
+}
+* body .container .section_five .section_five_bottom .experience_box .slea_description .detailed_description_slea.show {
+  transition: 0.9s all ease-in;
+  opacity: 1;
 }
 * body .container .section_six {
   background-color: #146166;
@@ -1229,7 +1457,7 @@
 }
 * body .container .section_seven .section_seven_bottom form .input_div label {
   font-family: "Inter", sans-serif;
-  font-size: 1.5em;
+  font-size: 5vw;
   color: white;
 }
 * body .container .section_seven .section_seven_bottom form .input_div input {

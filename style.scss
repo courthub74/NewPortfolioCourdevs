@@ -14,6 +14,9 @@ $hoverfonts: #B7BCD6;
 $experiencegreen: #255C5A;
 $positioncolor: #8081AA;
 
+// Other Blue
+$otherblue: #00567F;
+
 // BUTTON COLORS
 $learnmorebutton: #EBEBEB;
 $experiencegreenbutton: #476D6B;
@@ -54,13 +57,14 @@ $darkred: darkred;
 $darkgreen: darkgreen;
 $darkgrey: darkgrey;
 
-
+// star with the transition and then star without remove after it loads
 * {
     margin: 0;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    // First Body
     body {
-        // overflow: hidden;
+        // transition: none !important;
         .container {
             background-color: $mainblue;
             margin: 0;
@@ -71,46 +75,54 @@ $darkgrey: darkgrey;
                 top: 0;
                 width: 100%;
                 z-index: 98;
-                height: 14vh;
+                height: 17vh;
+                // box-shadow: 1px 1px 2px $boxshadowcircles;
                 transition: 1s all ease-in-out;
                 .nav_top_contents {
                     display: flex;
                     justify-content: space-between;
                     #courdevs_top_logo {
-                        width: 25vw;
-                        height: 25vw;
-                        margin: 2vh 0 0 5vw;
-                        transition: 1s all ease-in-out;
+                        // width: 25vw;
+                        // height: 25vw;
+                        width: 28w;
+                        height: 28vw;
+                        margin: 3vh 0 0 9vw;
+                        transition: 3s all ease-in-out;
                         // opacity: 0;
                     }
                     #courdevs_top_logo.dissapear {
                         opacity: 0;
                         transition: 1s all ease-in-out;
                     }
-                    // #courdevs_top_logo.appear {
-                    //     opacity: 1;
-                    //     transition: .7s all ease-in;
-                    // }
                     .you {
                         display: flex;
                         flex-direction: column;
                         justify-content: left;
                         align-items: center;
+                        gap: .5vh;
                         // margin: 4.5vh 0 0 -60vw;
-                        margin: 5.5vh 0 0 -4vw;
+                        margin: 5vh 0 0 -55vw;
                         opacity: 0;
                         transition: 1s all ease-in-out;
                         #name {
                             color: white;
-                            font-size: 4vw;
+                            font-size: 5vw;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;
                             margin: 0 0 0 0vw;
                         }
-                        #job_description {
-                            color: $positioncolor;
-                            font-size: 3.5vw;
-                            font-family: 'Roboto', sans-serif;
+                        .desc_menu_box {
+                            background-color: $portfolios;
+                            padding: 2vw;
+                            border-radius: 5px;
+                            // width height below
+                            // width: 10vw;
+                            // height: 1vw;
+                            #job_description {
+                                color: $positioncolor;
+                                font-size: 3.3vw;
+                                font-family: 'Roboto', sans-serif;
+                            }
                         }
                     }
                     .you.appear {
@@ -118,9 +130,9 @@ $darkgrey: darkgrey;
                         transition: 1s all ease-in-out;
                     }
                     #top_hamburger {
-                        width: 12vw;
-                        height: 12vw;
-                        margin: 4.5vh 8vw 0 0;
+                        width: 10vw;
+                        height: 10vw;
+                        margin: 6.5vh 15vw 0 0;
                         transition: 1s all ease-in-out;
                     }
                     #top_hamburger.dissapear {
@@ -178,7 +190,7 @@ $darkgrey: darkgrey;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    margin: -30vh 0 0 0;
+                    margin: -24vh 0 0 0;
                     #home_headshot {
                         width: 45vw;
                         height: 45vw;
@@ -207,7 +219,7 @@ $darkgrey: darkgrey;
                             font-family: 'Inter', sans-serif;
                             color: white;
                             // color: $positioncolor;
-                            font-size: 8.5vw;
+                            font-size: 7vw;
                         }
                     }
                     .job_description {
@@ -222,7 +234,7 @@ $darkgrey: darkgrey;
                             font-family: 'Roboto', sans-serif;
                             color: $positioncolor;
                             // color: white;
-                            font-size: 20px;
+                            font-size: 5vw;
                         }
                     }
                     .my_mantra {
@@ -232,15 +244,15 @@ $darkgrey: darkgrey;
                             color: white;
                             // color: $positioncolor;
                             font-family: 'Roboto', sans-serif;
-                            font-size: 4.5vw;
-                            font-weight: bold;
+                            font-size: 4vw;
+                            // font-weight: bold;
                             text-align: center;
                         }
                     }
                     .learn_more {
                         width: 70vw;
                         height: 10vw;
-                        margin: 13vh 0 -15vh 0;
+                        margin: 12vh 0 -15vh 0;
                         border-radius: 5px;
                         background-color: $portfolios;
                         // background-color: $positioncolor;
@@ -252,13 +264,14 @@ $darkgrey: darkgrey;
                             // color: $darkblue;
                             text-decoration: none;
                             font-family: 'Roboto', sans-serif;
-                            font-size: 4vw;
+                            font-size: 3.5vw;
                         }
                     }
                 }
             }
             .section_two {
                 background-color: $skillsteal;
+                // background-color: $otherblue;
                 height: 100vh;
                 .section_two_top {
                     display: flex;
@@ -281,6 +294,7 @@ $darkgrey: darkgrey;
                         // text-align: center;
                         color: white;
                         font-family: 'Roboto', sans-serif;
+                        font-size: 4vw;
                         .about_page_Logo {
                             display: flex;
                             justify-content: center;
@@ -334,7 +348,7 @@ $darkgrey: darkgrey;
                     //////////////////////////////
                     // Portfolio App Content
                         // App 1 Content
-                        .app1content {
+                        .appcontent {
                             top: 0;
                             left: 100%;
                             width: 100%;
@@ -347,7 +361,7 @@ $darkgrey: darkgrey;
                             background-color: $mainblue;
                             height: 100vh;
                             transition: all .4s ease-out;
-                            .app1description {
+                            .appdescription {
                                 border: 2px solid $portfolios;
                                 background-color: $portfolios;
                                 border-radius: 5px;
@@ -359,6 +373,7 @@ $darkgrey: darkgrey;
                                 flex-direction: column;
                                 align-items: center;
                                 margin: 0vh 0 0 0;
+                                // APP 1 CONTENT STARTS HERE
                                 .app1_logo {
                                     #skill_project_img {
                                         margin: 4vh 0 0 0;
@@ -495,7 +510,7 @@ $darkgrey: darkgrey;
                                             #github_app_link {
                                                 width: 10vw;
                                                 height: 10vw;
-                                                margin: 0 0 0 .05vw;
+                                                margin: 0 0 0 0.049vw;
                                             }
                                         }
                                         .link_link {
@@ -515,7 +530,7 @@ $darkgrey: darkgrey;
                                     }
                             }
                         }
-                        .app1content.slide_in {
+                        #app1content.slide_in {
                             // add transition HERE
                             transition: all .6s ease-in;
                             left: 0;
@@ -530,21 +545,201 @@ $darkgrey: darkgrey;
                                 height: 7vw;
                             }
                         }
+                        // APP 2 CONTENT STARTS HERE
                         .app2content {
-                            border: 2px solid $portfolios;
-                            background-color: $portfolios;
-                            border-radius: 5px;
                             top: 0;
                             left: 100%;
-                            width: 105%;
-                            height: 90vh;
-                            margin: -13vh 0 0 0vw;
-                            transition: ease-in .8s;
+                            width: 100%;
                             z-index: 100;
                             position: fixed;
-                            p {
-                                color: white;
-                                text-align: center;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: $mainblue;
+                            height: 100vh;
+                            transition: all .4s ease-out;
+                            .app2description {
+                                border: 2px solid $portfolios;
+                                background-color: $portfolios;
+                                border-radius: 5px;
+                                flex-direction: column;
+                                width: 85%;
+                                height: 84vh;
+                                transition: ease-in .8s;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                margin: 0vh 0 0 0;
+                                .app2_logo {
+                                    #create_collab {
+                                        margin: 4vh 0 0 8.5vw;
+                                    }
+                                }
+                                .app2_description {
+                                    p {
+                                        color: white;
+                                        font-family: 'Inter', sans-serif;
+                                        margin: 6vh 0 0 0;
+                                        font-size: 3.5vw;
+                                    }
+                                }
+                                .app2_technologies {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-weight: bold;
+                                    margin: 7vh 0 0 0;
+                                    p {
+                                        font-size: 3.5vw;
+                                    }
+                                    // The tech circles div
+                                    .technology_circles2_portfolio {
+                                        display: flex;
+                                        gap: 1vh;
+                                        margin: 3vh 0 0 0;
+                                        // The tech icons
+                                        .react_app1 {
+                                            width: 10vw;
+                                            height: 10vw;
+                                        }
+                                        // The actual tech circles
+                                            // SMALLER CIRCLES
+                                        .tech_1 {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 20vw;
+                                            height: 20vw; 
+                                            background-color: $techcirclegreen;
+                                            background-color: $techcircleblue;
+                                            border-radius: 50%;
+                                            .app_circle_descriptions {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                font-weight: normal;
+                                                color: $socialsgrey;
+                                            }                                      
+                                        }
+                                        .tech_2 {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 20vw;
+                                            height: 20vw;
+                                            background-color: $techcirclegreen;
+                                            background-color: $techcircleblue;
+                                            border-radius: 50%;
+                                            #express_tech_circle {
+                                                width: 8vw;
+                                                height: 8vw;
+                                                margin-top: .5vh;
+                                            }
+                                            .app_circle_descriptions {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                font-weight: normal;
+                                                color: $socialsgrey;
+                                                margin-top: .5vh;
+                                            }                                      
+                                        }
+                                        .tech_3 {
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 20vw;
+                                            height: 20vw; 
+                                            background-color: $techcirclegreen;
+                                            background-color: $techcircleblue;
+                                            border-radius: 50%;
+                                            .app_circle_descriptions {
+                                                font-family: 'Inter', sans-serif;
+                                                font-size: 3vw;
+                                                font-weight: normal;
+                                                color: $socialsgrey;
+                                            }                                      
+                                        }
+                                    }
+                                }
+                                // The App accomplishments div
+                                .app1_accomplishments {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 5vh 0 0 0;
+                                    .accomp_list {
+                                        margin: 0 10vw 0 0;
+                                        ul {
+                                            text-align: center;
+                                            #accomp_header {
+                                                font-weight: bold;
+                                            }
+                                            li {
+                                                font-family: 'Inter', sans-serif;
+                                                color: white;
+                                                font-size: 3.5vw;
+                                                list-style: none;
+                                                padding: 1vh 1vh;
+                                            }
+                                        }
+                                    }
+                                }
+                                // The App Links
+                                .app2_links {
+                                    display: flex;
+                                    gap: 4vw;
+                                    margin: 6vh 0 0 0;
+                                    .github_link {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 14vw;
+                                        height: 14vw;
+                                        border-radius: 50%;
+                                        background-color: $languagewhite;
+                                        #github_app_link {
+                                            width: 10vw;
+                                            height: 10vw;
+                                            margin: 0 0 0 0.049vw;
+                                        }
+                                    }
+                                    .link_link {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 14vw;
+                                        height: 14vw;
+                                        border-radius: 50%;
+                                        background-color: $languagewhite;
+                                        #link_app_link {
+                                            width: 10vw;
+                                            height: 10vw;
+                                            margin: -.3vh .5vw 0 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        #app2content.slide_in {
+                            // add transition HERE
+                            transition: all .6s ease-in;
+                            left: 0;
+                        }
+                        // app bacc arrow
+                        .app2_back_arrow {
+                            background: none;
+                            border: none;
+                            margin: 3vh 0 0 0;
+                            #back_arrow {
+                                width: 7vw;
+                                height: 7vw;
                             }
                         }
                         .app3content {
@@ -673,8 +868,8 @@ $darkgrey: darkgrey;
                             // box-shadow: 1px 1px 3px $boxshadowcircles;
                             // html / css icons sizing
                             .shield {
-                                width: 12vw;
-                                height: 12vw;
+                                width: 10vw;
+                                height: 10vw;
                                 margin: 1vh 0 1vh 0;
                             }
                             // html
@@ -845,21 +1040,21 @@ $darkgrey: darkgrey;
                                 color: white;
                                 opacity: 1;
                             }
-                            #nodejs {
+                            #expressjs {
                                 transition: .7s all ease-in;
-                                width: 13vw;
-                                height: 14vw;
+                                width: 11vw;
+                                height: 11vw;
                                 margin: 0 0 .4vh 0;
                                 position: absolute;
                             }
-                            #nodejs.dissapear {
+                            #expressjs.dissapear {
                                 transition: .3s all ease-in;
                                 opacity: 0;
                             }
-                            #nodejs_description {
+                            #expressjs_description {
                                 opacity: 0;
                             }
-                            #nodejs_description.show {
+                            #expressjs_description.show {
                                 transition: .8s all ease-out;
                                 font-family: 'Roboto', sans-serif;
                                 font-size: 4vw;
@@ -867,66 +1062,67 @@ $darkgrey: darkgrey;
                                 opacity: 1;
                             }
                             #django {
-                                width: 13vw;
-                                height: 11vw;
+                                transition: .7s all ease-in;
+                                width: 11vw;
+                                height: 9vw;
                                 margin: 0 1vw 0 0;
                                 position: absolute;
                             }
                             #django.dissapear {
-                                transition: .7s all ease-in;
+                                transition: .3s all ease-in;
                                 opacity: 0;
                             }
                             #django_description {
-                                transition: .3s all ease-out;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
                                 opacity: 0;
                             }
                             #django_description.show {
-                                transition: .7s all ease-in;
+                                transition: .8s all ease-out;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 4vw;
+                                margin-top: -.3vh;
+                                color: white;
                                 opacity: 1;
                             }
                             #aws {
-                                width: 15vw;
-                                height: 15vw;
+                                transition: .7s all ease-in;
+                                width: 13vw;
+                                height: 13vw;
                                 margin: .5vh 0 .4vh 0;
                                 position: absolute;
                             }
                             #aws.dissapear {
-                                transition: .7s all ease-in;
+                                transition: .3s all ease-in;
                                 opacity: 0;
                             }
                             #aws_description {
-                                transition: .3s all ease-out;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
                                 opacity: 0;
                             }
                             #aws_description.show {
-                                transition: .7s all ease-in;
+                                transition: .8s all ease-out;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 4vw;
+                                color: white;
                                 opacity: 1;
                             }
                             #heroku {
+                                transition: .7s all ease-in;
                                 width: 12vw;
                                 height: 12vw;
                                 margin: 0 0 .4vh 0;
                                 position: absolute;
                             }
                             #heroku.dissapear {
-                                transition: .7s all ease-in;
+                                transition: .3s all ease-in;
                                 opacity: 0;
                             }
                             #heroku_description {
-                                transition: .3s all ease-out;
-                                font-family: 'Roboto', sans-serif;
-                                font-size: 4vw;
-                                color: white;
                                 opacity: 0;
                             }
                             #heroku_description.show {
-                                transition: .7s all ease-in;
+                                transition: .8s all ease-out;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 4vw;
+                                color: white;
                                 opacity: 1;
                             }
                             // .description {
@@ -1146,8 +1342,8 @@ $darkgrey: darkgrey;
                         }
                         .r1rcm_description {
                             // margin: 7.5vh 0 0 2.5vw;
-                            margin: 8vh 0 0 9vw;
-                            .main_description {
+                            margin: 8vh 0 0 4vw;
+                            .main_description_r1rcm {
                                 transition: .9s all ease-in;
                                 border: none;
                                 background-color: $portfolios;
@@ -1162,6 +1358,33 @@ $darkgrey: darkgrey;
                                     font-size: 3.5vw;
                                 }
                             }
+                            .main_description_r1rcm.dissapear {
+                                transition: .7s all ease-out;
+                                opacity: 0;
+                            }
+                            .detailed_description_r1rcm {
+                                margin: -9vh 0 0 5vw;
+                                text-align: left;
+                                opacity: 0;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 1vh;
+                                transition: .1s all ease-in;
+                                h1 {
+                                    color: $jobdescription;
+                                    font-size: 3.5vw;
+                                    font-family: 'Inter', sans-serif;
+                                    margin: 0 0 .5vh 0;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 3.2vw;
+                                }
+                            }
+                            .detailed_description_r1rcm.show {
+                                transition: .9s all ease-in;
+                                opacity: 1;
+                            }
                         }
                         // SLEA
                         .slea_logo {
@@ -1174,19 +1397,46 @@ $darkgrey: darkgrey;
                         .slea_description {
                             // margin: 7.5vh 0 0 2.5vw;
                             margin: 8vh 0 0 7.5vw;
-                            .main_description {
+                            .main_description_slea {
+                                    transition: .9s all ease-in;
+                                    border: none;
+                                    background-color: $portfolios;
+                                h1 {
+                                    color: white;
+                                    font-size: 5vw;
+                                    font-family: 'Inter', sans-serif;
+                                }
+                                p {
+                                    color: $jobdescription;
+                                    font-size: 3.5vw;
+                                }
+                            }
+                            .main_description_slea.dissapear {
+                                transition: .7s all ease-out;
+                                opacity: 0;
+                            }
+                            .detailed_description_slea {
+                                margin: -9vh 0 0 2vw;
+                                text-align: left;
+                                opacity: 0;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 1vh;
+                                transition: .1s all ease-in;
+                                h1 {
+                                    color: $jobdescription;
+                                    font-size: 3.5vw;
+                                    font-family: 'Inter', sans-serif;
+                                    margin: 0 0 .5vh 0;
+                                }
+                                p {
+                                    color: white;
+                                    font-size: 3.2vw;
+                                }
+                            }
+                            .detailed_description_slea.show {
                                 transition: .9s all ease-in;
-                                border: none;
-                                background-color: $portfolios;
-                            h1 {
-                                color: white;
-                                font-size: 5vw;
-                                font-family: 'Inter', sans-serif;
-                            }
-                            p {
-                                color: $jobdescription;
-                                font-size: 3.5vw;
-                            }
+                                opacity: 1;
                             }
                         }
                     }
@@ -1427,7 +1677,7 @@ $darkgrey: darkgrey;
                             flex-direction: column;
                             label {
                                 font-family: 'Inter', sans-serif;
-                                font-size: 1.5em;
+                                font-size: 5vw;
                                 color: white;
                             }
                             input {
@@ -1512,4 +1762,7 @@ $darkgrey: darkgrey;
     body.no_scroll {
         overflow: hidden;
     }
+    // body.preload {
+    //     transition: none !important;
+    // }
 }
