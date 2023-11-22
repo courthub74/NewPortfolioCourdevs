@@ -1791,3 +1791,130 @@ $darkgrey: darkgrey;
     //     transition: none !important;
     // }
 }
+
+// For my Iphone
+@media screen and (max-width: 375px) {
+    * {
+        margin: 0;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        body {
+            .container {
+                background-color: $mainblue;
+                margin: 0;
+                .the_top_nav {
+                    background-color: $mainblue;
+                    position: sticky;
+                    top: 0;
+                    width: 100%;
+                    z-index: 98;
+                    height: 17vh;
+                    transition: 1s all ease-in-out;
+                    #courdevs_top_logo {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 3vh 0 0 9vw;
+                        transition: 3s all ease-in-out;
+                        border: 2px solid white;
+                        border-radius: 50%;
+                        padding: 5vw;
+                        background-color: white;
+                        a {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            text-align: center;
+                            color: white;
+                            color: $mainblue;
+                            font-size: 4vw;
+                            text-decoration: none;
+                        }
+                    }
+                    #courdevs_top_logo.dissapear {
+                        opacity: 0;
+                        transition: 1s all ease-in-out;
+                    }
+                    .you {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: left;
+                        align-items: center;
+                        gap: .5vh;
+                        // margin: 4.5vh 0 0 -60vw;
+                        margin: 5vh 0 0 -55vw;
+                        opacity: 0;
+                        transition: 1s all ease-in-out;
+                        #name {
+                            color: white;
+                            font-size: 5vw;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            margin: 0 0 0 0vw;
+                        }
+                        .desc_menu_box {
+                            background-color: $portfolios;
+                            background-color: white;
+                            padding: 2vw;
+                            border-radius: 5px;
+                            // width height below
+                            // width: 10vw;
+                            // height: 1vw;
+                            #job_description {
+                                color: $positioncolor;
+                                color: $mainblue;
+                                font-size: 3.3vw;
+                                font-family: 'Roboto', sans-serif;
+                            }
+                        }
+                    }
+                    .you.appear {
+                        opacity: 1;
+                        transition: 1s all ease-in-out;
+                    }
+                    #top_hamburger {
+                        width: 10vw;
+                        height: 10vw;
+                        margin: 6.5vh 15vw 0 0;
+                        transition: 1s all ease-in-out;
+                    }
+                    #top_hamburger.dissapear {
+                        opacity: 0;
+                        transition: 1s all ease-in-out;
+                    }
+                    .you {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: left;
+                        align-items: center;
+                        gap: .5vh;
+                        margin: 5vh 0 0 -55vw;
+                        opacity: 0;
+                        transition: 1s all ease-in-out;
+                        #name {
+                            color: white;
+                            font-size: 5vw;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            margin: 0 0 0 0vw;
+                        }
+                        .desc_menu_box {
+                            background-color: $portfolios;
+                            background-color: white;
+                            padding: 2vw;
+                            border-radius: 5px;
+                            // width height below
+                            // width: 10vw;
+                            // height: 1vw;
+                            #job_description {
+                                color: $positioncolor;
+                                color: $mainblue;
+                                font-size: 3.3vw;
+                                font-family: 'Roboto', sans-serif;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
