@@ -22,10 +22,24 @@
   justify-content: space-between;
 }
 * body .container .the_top_nav .nav_top_contents #courdevs_top_logo {
-  width: 28w;
-  height: 28vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 3vh 0 0 9vw;
   transition: 3s all ease-in-out;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5vw;
+  background-color: white;
+}
+* body .container .the_top_nav .nav_top_contents #courdevs_top_logo a {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  color: #080E2F;
+  font-size: 4vw;
+  text-decoration: none;
 }
 * body .container .the_top_nav .nav_top_contents #courdevs_top_logo.dissapear {
   opacity: 0;
@@ -50,11 +64,13 @@
 }
 * body .container .the_top_nav .nav_top_contents .you .desc_menu_box {
   background-color: #36395D;
+  background-color: white;
   padding: 2vw;
   border-radius: 5px;
 }
 * body .container .the_top_nav .nav_top_contents .you .desc_menu_box #job_description {
   color: #8081AA;
+  color: #080E2F;
   font-size: 3.3vw;
   font-family: "Roboto", sans-serif;
 }
@@ -104,19 +120,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: -24vh 0 0 0;
+  margin: 0vh 0 0 0;
 }
 * body .container .section_one .section_one_headshot #home_headshot {
-  width: 45vw;
-  height: 45vw;
+  width: 55vw;
+  height: 55vw;
   border-radius: 50%;
   position: absolute;
+  margin: -55vw 0 0 0;
 }
 * body .container .section_one .section_one_headshot .back_circle {
   width: 50vw;
   height: 50vw;
-  border: 7px solid #8081AA;
-  border: 10px solid #36395D;
   border-radius: 50%;
   box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.521);
 }
@@ -125,7 +140,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 6vh 0 0 0;
+  margin: 10vh 0 0 0;
 }
 * body .container .section_one .section_one_content .home_name {
   margin: 0 0 1.5vh 0;
@@ -142,11 +157,13 @@
   width: 70vw;
   height: 11vw;
   background-color: #36395D;
+  background-color: white;
   border-radius: 5px;
 }
 * body .container .section_one .section_one_content .job_description p {
   font-family: "Roboto", sans-serif;
   color: #8081AA;
+  color: #080E2F;
   font-size: 5vw;
 }
 * body .container .section_one .section_one_content .my_mantra {
@@ -156,7 +173,7 @@
 * body .container .section_one .section_one_content .my_mantra p {
   color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 4vw;
+  font-size: 5vw;
   text-align: center;
 }
 * body .container .section_one .section_one_content .learn_more {
@@ -165,15 +182,17 @@
   margin: 12vh 0 -15vh 0;
   border-radius: 5px;
   background-color: #36395D;
+  background-color: white;
   border: none;
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.521);
 }
 * body .container .section_one .section_one_content .learn_more a {
   color: #d9e2e2;
   color: white;
+  color: #080E2F;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-size: 3.5vw;
+  font-size: 4vw;
 }
 * body .container .section_two {
   background-color: #146166;

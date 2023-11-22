@@ -84,11 +84,27 @@ $darkgrey: darkgrey;
                     #courdevs_top_logo {
                         // width: 25vw;
                         // height: 25vw;
-                        width: 28w;
-                        height: 28vw;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        // width: 24w;
+                        // height: 24vw;
                         margin: 3vh 0 0 9vw;
                         transition: 3s all ease-in-out;
+                        border: 2px solid white;
+                        border-radius: 50%;
+                        padding: 5vw;
+                        background-color: white;
                         // opacity: 0;
+                        a {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            text-align: center;
+                            color: white;
+                            color: $mainblue;
+                            font-size: 4vw;
+                            text-decoration: none;
+                        }
                     }
                     #courdevs_top_logo.dissapear {
                         opacity: 0;
@@ -113,6 +129,7 @@ $darkgrey: darkgrey;
                         }
                         .desc_menu_box {
                             background-color: $portfolios;
+                            background-color: white;
                             padding: 2vw;
                             border-radius: 5px;
                             // width height below
@@ -120,6 +137,7 @@ $darkgrey: darkgrey;
                             // height: 1vw;
                             #job_description {
                                 color: $positioncolor;
+                                color: $mainblue;
                                 font-size: 3.3vw;
                                 font-family: 'Roboto', sans-serif;
                             }
@@ -190,18 +208,20 @@ $darkgrey: darkgrey;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    margin: -24vh 0 0 0;
+                    margin: 0vh 0 0 0;
+                    // margin: 0vh 0 0 0;
                     #home_headshot {
-                        width: 45vw;
-                        height: 45vw;
+                        width: 55vw;
+                        height: 55vw;
                         border-radius: 50%; 
-                        position: absolute;  
+                        position: absolute; 
+                        margin: -55vw 0 0 0; 
                     }
                     .back_circle {
                         width: 50vw;
                         height: 50vw;
-                        border: 7px solid $positioncolor;
-                        border: 10px solid $portfolios;
+                        // border: 7px solid $positioncolor;
+                        // border: 10px solid $portfolios;
                         border-radius: 50%;
                         box-shadow: 3px 3px 2px $boxshadowcircles;
                     }
@@ -211,7 +231,7 @@ $darkgrey: darkgrey;
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    margin: 6vh 0 0 0;
+                    margin: 10vh 0 0 0;
                     // height: 100vh;
                     .home_name {
                         margin: 0 0 1.5vh 0;
@@ -229,10 +249,12 @@ $darkgrey: darkgrey;
                         width: 70vw;
                         height: 11vw;
                         background-color: $portfolios;
+                        background-color: white;
                         border-radius: 5px;
                         p {
                             font-family: 'Roboto', sans-serif;
                             color: $positioncolor;
+                            color: $mainblue;
                             // color: white;
                             font-size: 5vw;
                         }
@@ -244,7 +266,7 @@ $darkgrey: darkgrey;
                             color: white;
                             // color: $positioncolor;
                             font-family: 'Roboto', sans-serif;
-                            font-size: 4vw;
+                            font-size: 5vw;
                             // font-weight: bold;
                             text-align: center;
                         }
@@ -255,16 +277,19 @@ $darkgrey: darkgrey;
                         margin: 12vh 0 -15vh 0;
                         border-radius: 5px;
                         background-color: $portfolios;
+                        background-color: white;
                         // background-color: $positioncolor;
                         border: none;
                         box-shadow: 5px 5px 4px $boxshadowcircles;
                         a {
                             color: $languagewhite;
+                            
                             color: white;
+                            color: $mainblue;
                             // color: $darkblue;
                             text-decoration: none;
                             font-family: 'Roboto', sans-serif;
-                            font-size: 3.5vw;
+                            font-size: 4vw;
                         }
                     }
                 }
